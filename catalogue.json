@@ -10922,7 +10922,11 @@
    "source": "Archivportal-D sweep",
    "prior_art": "open (checked 26 Oct 2026: known.py, quick web search).",
    "ark": "",
-   "scored": "sweep"
+   "scored": "sweep",
+   "outcome": "attempted, open: blocked, no images of GLA 50 Nr. 924 / 924 a online (27 Oct 2026, targets/baden1757/)",
+   "known": "Archivportal-D record for Nr. 924 is a finding aid only (no Digitalisat; Enthält '1. Januar - Juli'; date field empty). One web search found no decipherment or edition.",
+   "open": "The ciphered passages of Nr. 924 and 924 a, not seen: needs reproductions from the Landesarchiv BW; then test the Edelsheim keys (GLA 48 Nr. 67, 75) and DECODE/Tomokiyo.",
+   "as_of": "2026-10-27"
   },
   {
    "id": 577,

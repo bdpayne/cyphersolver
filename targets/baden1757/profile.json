@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target": "baden1757",
+  "title": "Baden-Durlach envoy at the Reichstag, reports partly ciphered, 1757-1758 (GLA Karlsruhe 50 Nr. 924 and 924 a)",
+  "documents": [
+    {
+      "id": "reichstagsberichte924",
+      "shelfmark": "Landesarchiv BW, Abt. Generallandesarchiv Karlsruhe, 50 Nr. 924 (and 924 a)",
+      "date": "1757-1758",
+      "year": 1757,
+      "country": "Holy Roman Empire",
+      "route": "Regensburg -> Karlsruhe/Durlach",
+      "language": "unknown",
+      "pages": "unknown",
+      "cleartext_in_document": "unknown",
+      "read": "not read",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No decipherment found in one web search; the finding aid says 'zum Teil chiffriert' (partly ciphered).",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "unknown",
+        "image_quality": "no images",
+        "notes": "No image is online: the Archivportal-D record for Nr. 924 has no Digitalisat. Date given as 1757-1758 by the catalogue; the finding aid's date field is empty and its Enthalt note reads '1. Januar - Juli'. Language German is expected, not observed."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "unknown"
+    ],
+    "summary": "Unknown: the ciphertext has not been seen; the finding aid says only that the Reichstag reports are partly ciphered.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": "unknown",
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "word_division": "unknown",
+    "notes": "Baden keys of 1759-61 (Edelsheim) are said to be in GLA 48 Nr. 67 and 75; not viewed.",
+    "diacritics": "unknown"
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "unknown",
+      "where": "One web search found none; DECODE, Tomokiyo and known.py were not searched in this session.",
+      "found": "not found",
+      "used": false
+    },
+    "inputs": [],
+    "attack": "none",
+    "human_role": "Pasted the catalogue 576 task brief and asked for the blocked-on-access record to be made.",
+    "tools": [
+      "Archivportal-D record fetch",
+      "web search"
+    ],
+    "models": [
+      "claude-sonnet-5-5"
+    ],
+    "sessions": 1,
+    "first_date": "2026-10-27",
+    "last_date": "2026-10-27"
+  },
+  "solution": [
+    {
+      "date": "2026-10-27",
+      "kind": "access",
+      "what": "Fetched the Archivportal-D record for GLA Karlsruhe 50 Nr. 924: finding aid only, no Digitalisat, no link to 924 a or to key files.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-10-27",
+      "kind": "literature search",
+      "what": "One web search on the shelfmark, the Baden-Durlach Reichstag envoy and ciphered reports of 1757-58: no decipherment, edition or images found.",
+      "result": "failed"
+    }
+  ],
+  "outcome": {
+    "method": "not applicable",
+    "method_basis": "The item could not be reached: GLA Karlsruhe 50 Nr. 924 and 924 a have no images online.",
+    "contribution": [
+      "none"
+    ],
+    "class": "offline only",
+    "key": "none",
+    "fraction_read": 0,
+    "verification": [
+      "none"
+    ],
+    "gaps": [
+      {
+        "item": "the ciphered passages of GLA 50 Nr. 924 and 924 a",
+        "blocker": "needs-physical-access"
+      }
+    ],
+    "notes": "Blocked: no images. Next: order reproductions of Nr. 924, 924 a and GLA 48 Nr. 67, 75; search DECODE and Tomokiyo."
+  }
+}
