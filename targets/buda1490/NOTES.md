@@ -1,6 +1,7 @@
 # Maffeo da Treviglio to Tamás Bakócz, Milan 30 Nov 1490 (MNL OL DL 46150), catalogue 1235
 
-Status: read in part, written up 30 Oct 2026 (`docs/buda1490.html`). Key recovered from external plaintext (the clear
+Status: read in part, 30 Oct 2026; the site page, manifest, README row, reveal and keys.json are left to the
+maintainers (review of PR #199). Key recovered from external plaintext (the clear
 minute in Milan), extended by the retry pass of 30 Oct 2026; the letter is read in part: 561 of 624 words (89.9%) read
 as sense by `measure.py`, under the 95% read bar (before the retry 544, 87.2%). The 39 transcription suspects were
 checked on the image (29 Oct 2026: 11 fixed, 19 confirmed as writer departures, 9 ambiguous; transcription/suspects.md).
@@ -264,8 +265,10 @@ See `WORKLOG.md`.
 ### 30 Oct 2026: review fixes for PR #199 (claude-opus-5-5)
 Retry pass (`scripts/retry.py`, 544 -> 561 words), key R5407 tried (one value agrees; record unreachable), circularity
 note, statistical validation (`validation.tsv`, `scripts/make_validation.py`; pass), Latin letters model `la-letters`
-added to `lang/` (Gutenberg unreachable), write-up page; regrade of the read words against the blind key
+added to `lang/` (Gutenberg unreachable); regrade of the read words against the blind key
 (`scripts/regrade.py`: 466 of 624 words independent of the minute, no reading withdrawn). See `WORKLOG.md`.
+A site page and its generated files were pushed at 23:01 and taken out again the same evening: the review asks
+the maintainers to add the page, manifest, README row, portrait, snip, reveal and keys.json.
 
 ## Files
 
