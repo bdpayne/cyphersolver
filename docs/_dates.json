@@ -294,6 +294,7 @@
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "l’abbé to nevers, prague and breslau, 1577": "2026-09-23",
   "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
+  "maffeo da treviglio to tamás bakócz, milan 1490": "2026-10-30",
   "malicorne → henri iii, niort, 21 april 1586": "2026-10-23",
   "malsburg, 7/17 january 1637: the alphabetic block": "2026-10-02",
   "maltravers to ormonde, 1634–35": "2026-09-15",
@@ -889,6 +890,12 @@
    "posted": "2026-09-19T05:35:17Z",
    "updated": "2026-10-26"
   },
+  "buda1490": {
+   "first": "2026-10-30",
+   "hash": "fec02800fc03",
+   "posted": "2026-10-30T22:56:52Z",
+   "updated": "2026-10-30"
+  },
   "burgo1527": {
    "first": "2026-09-28",
    "hash": "8558fafe9831",
@@ -945,7 +952,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "213b1cec18ac",
+   "hash": "f9056ac61529",
    "posted": "2026-09-17T06:13:29Z",
    "updated": "2026-10-30"
   },
@@ -1089,7 +1096,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "f5abe3660773",
+   "hash": "0f450247ede0",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-10-30"
   },
@@ -1461,7 +1468,7 @@
   },
   "further": {
    "first": "2026-10-26",
-   "hash": "181512c74e7b",
+   "hash": "3d038c9bd152",
    "posted": "2026-10-26T18:46:48Z",
    "updated": "2026-10-30"
   },
@@ -1491,7 +1498,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "d0cb28adbde7",
+   "hash": "d467b20bdef2",
    "posted": "2026-09-24T07:48:35Z",
    "updated": "2026-10-30"
   },
@@ -1725,7 +1732,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "4340dd1317ba",
+   "hash": "93405565efe8",
    "posted": "2026-09-14T23:01:27Z",
    "updated": "2026-10-30"
   },
@@ -3579,7 +3586,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "9940ef70fff2",
+   "hash": "4f8b0843f1b9",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-10-30"
   },

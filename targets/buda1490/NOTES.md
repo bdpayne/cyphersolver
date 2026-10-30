@@ -184,31 +184,30 @@ has a doubtful word, and "quoniam" where the minute is illegible. `reading/clear
 
 ## Remaining gaps
 
-- 8 words on signs the 29 Oct image check left ambiguous (P1L04 dominationem, P1L05 cepit, P1L20 semper, P2L17
-  adduxit, P3L10 secundum, P3L17 reuerendissime, P3L19 descendit, P3L29 responso) - blocker: illegible; each sign was
-  checked on the Hungaricana scan, the only image there is, and lies on a crease or under a blot or falls between two
-  look-alike shapes (qB/gA, gA/gB, 5/gB, Q/Y/g); the retry reads reuerendissime and responso if the sign is the sister
-  shape (grade M), which only the original in MNL OL could settle.
-- 15 words on letter signs that stand once for a title or phrase: P1L06 "Illustrissime Domine Blance" (x), P1L10
-  "Magnifico Domino Cancellario Boemie" (a), P1L17 "Serenissimi Domini Regis sui necnon" (w, Q), P3L08 "summa
-  ducentorum milium" (A qB s tp) - blocker: open-codes; each stands once, so this letter cannot fix a value, and the
-  meaning comes from the minute alone; the nomenclator of R5407, if it is this key, would name them (see "Key R5407").
-- 4 words on signs with no value at that place: P1L12 excellentia (8, a, 6, d in one word, two of them confirmed on the
-  image), P3L21 reiici (8C: 4 tokens, i twice, ii once), P3L27 admittendas (y where tt stands), P3L09 esse (only the
-  null A stands there: the word is not enciphered) - blocker: too-short; single cases, no second occurrence to fix a
+- 8 words on signs left ambiguous by the image check - blocker: illegible; P1L04 dominationem, P1L05 cepit, P1L20
+  semper, P2L17 adduxit, P3L10 secundum, P3L17 reuerendissime, P3L19 descendit, P3L29 responso: each sign was checked on
+  the Hungaricana scan, the only image there is, and lies on a crease or under a blot or falls between two look-alike
+  shapes (qB/gA, gA/gB, 5/gB, Q/Y/g); the retry reads reuerendissime and responso if the sign is the sister shape
+  (grade M), which only the original in MNL OL could settle.
+- 15 words on letter signs standing once for a title or phrase - blocker: open-codes; P1L06 "Illustrissime Domine
+  Blance" (x), P1L10 "Magnifico Domino Cancellario Boemie" (a), P1L17 "Serenissimi Domini Regis sui necnon" (w, Q),
+  P3L08 "summa ducentorum milium" (A qB s tp): each stands once, so this letter cannot fix a value, and the meaning comes
+  from the minute alone; the nomenclator of R5407, if it is this key, would name them (see "Key R5407").
+- 4 words on signs with no value at that place - blocker: too-short; P1L12 excellentia (8, a, 6, d in one word, two of
+  them confirmed on the image), P3L21 reiici (8C: 4 tokens, i twice, ii once), P3L27 admittendas (y where tt stands),
+  P3L09 esse (only the null A stands there: the word is not enciphered): single cases, no second occurrence to fix a
   value; R5407 would settle 8C and y.
-- 9 words where the image check confirmed the writer's sign and the retry finds no homophone link (cicius P1L01,
-  amictssimo P1L19, minisse P2L14, petite P2L15, ragi P2L27, ostendare P2L28) or only a sister label (oitendit P1L21,
-  promisirat P2L27), and P3L17 "et" for "ut" (o for u) - blocker: too-short; the writer's own departures, each once;
-  the intended word is clear from the sentence (grade I) but is not counted.
-- 15 words that give no fitting Latin and were not in the single-sign suspect list: letters left out (presenis P1L02,
-  proter P2L07 and P2L08, ali P2L24, [u]ieat P2L22) and multi-sign departures (mel and et for "mea ex" P1L11, reeatur
-  P1L19, ubeiimum and frsotum P2L02, ad for "et" P2L11, quemamthum P2L15, ssga P3L03, ainc P4L01), and the extra ff on
-  P2L03 - blocker: too-short; each departure occurs once and no value, sister label or code in the extended key explains
-  it (retry pass); an image check of the multi-sign ones was not made in this session (the page images are not in the
-  repository) and is the one step that could still change them.
-- 12 words with a lost sign (P1L18, P2L16, P3L15-21, P3L28), filled from the minute in ⟨⟩ - blocker: illegible; holes
-  and blots in the paper.
+- 9 words where the image confirmed the writer's own sign - blocker: too-short; cicius P1L01, amictssimo P1L19, minisse
+  P2L14, petite P2L15, ragi P2L27, ostendare P2L28 (no homophone link), oitendit P1L21 and promisirat P2L27 (only a
+  sister label), and P3L17 "et" for "ut" (o for u): the writer's departures, each once; the intended word is clear from
+  the sentence (grade I) but is not counted.
+- 15 words with letters left out or multi-sign departures - blocker: too-short; presenis P1L02, proter P2L07 and P2L08,
+  ali P2L24, [u]ieat P2L22 (letters left out); mel and et for "mea ex" P1L11, reeatur P1L19, ubeiimum and frsotum P2L02,
+  ad for "et" P2L11, quemamthum P2L15, ssga P3L03, ainc P4L01; and the extra ff on P2L03: each departure occurs once and
+  no value, sister label or code in the extended key explains it (retry pass); an image check of the multi-sign ones was
+  not made in this session (the page images are not in the repository) and is the one step that could still change them.
+- 12 words with a lost sign - blocker: illegible; P1L18, P2L16, P3L15-21, P3L28: holes and blots in the paper; filled
+  from the minute in ⟨⟩.
 
 ## Escalation
 

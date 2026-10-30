@@ -33,7 +33,11 @@
     "image_quality": "fair",
     "notes": "Claude agents from 2-3x crops; shape-only split passes (q, g, oo, h, 8, 6) and two rounds of image repairs. 41 isolated disagreements with the minute listed in transcription/suspects.md, not yet checked on the image. Length: p1-p4.txt together (docs/_check_profile.py --measure on the four files joined, labels and clear brackets dropped): 3,185 legible tokens + 14 lost (??) = 3,199; 76 labels."
    },
-   "read": "read in part"
+   "read": "read in part",
+   "places": {
+    "from": "Milan",
+    "to": "Buda"
+   }
   }
  ],
  "system": {
