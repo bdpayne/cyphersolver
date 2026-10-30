@@ -121,7 +121,9 @@
   ],
   "notes": "Blocked on the full ciphertext in Vilcoq 1969; with it, a known-plaintext alignment against Chuquet becomes possible.",
   "credits": [
-    {"who": "tomokiyo", "role": "transcription", "note": "the 325 printed code groups of Berthier's letter (from Vilcoq 1969), as given on cryptiana"}
+    {"who": "tomokiyo", "role": "transcription", "note": "the 325 printed code groups of Berthier's letter (from Vilcoq 1969), as given on cryptiana"},
+    {"who": "dudout", "role": "solution", "note": "read with the Great Cipher of 1812 (writer: King Joseph, not Berthier); independent re-reading after Ilia Chirtulov's first identification of key and writer (reported by Tomokiyo, 12 Oct 2026): full line-by-line reading, 8 groups corrected on the 1969 plate, permutation control, sister letter of 23 Dec 1812; see dudout/README.md", "date": "2026-10-12", "source": "https://bdudout.github.io/joseph-napoleon/", "published": true},
+    {"who": "bouchaudy", "role": "key or decipherment used", "note": "photographs of the deciphering table of the Great Cipher of 1812 (SHD B n. 30), from which the entries in dudout/key_entries.tsv were read"}
   ]
  }
 }
