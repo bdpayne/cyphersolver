@@ -1,9 +1,11 @@
 # Maffeo da Treviglio to Tamás Bakócz, Milan 30 Nov 1490 (MNL OL DL 46150), catalogue 1235
 
-Status: in progress. Key recovered from external plaintext (the clear minute in Milan); the letter is read in part:
-544 of 624 words (87.2%) read as sense by `measure.py`, under the 95% read bar. The 39 transcription suspects were
-checked on the image (29 Oct 2026: 11 fixed, 19 confirmed as writer departures, 9 ambiguous; transcription/suspects.md);
-the open words are writer slips, damage, a few unvalued signs and the 9 ambiguous signs (below). The write-up page is not made yet.
+Status: read in part, written up 30 Oct 2026 (`docs/buda1490.html`). Key recovered from external plaintext (the clear
+minute in Milan), extended by the retry pass of 30 Oct 2026; the letter is read in part: 561 of 624 words (89.9%) read
+as sense by `measure.py`, under the 95% read bar (before the retry 544, 87.2%). The 39 transcription suspects were
+checked on the image (29 Oct 2026: 11 fixed, 19 confirmed as writer departures, 9 ambiguous; transcription/suspects.md).
+Every open word has a blocker in "Remaining gaps"; how far the minute can count as a check is set out in "The minute
+as evidence: circularity" below. Statistical validation (`docs/_validate.py`, 30 Oct 2026): pass.
 
 ## The document
 
@@ -40,16 +42,17 @@ about 60 signs that carry the text (`transcription/signs.md`, `key.md`). It is n
 `../buda1489` (there a = r, 1, f and e = ꝛ, 4, //; here a = to, F (φ), L (⊥) and e = o, w, E, B), nor Somogyi's
 reconstruction of it. `../buda1489/key_R5411.md` notes a second key "Cum Mafeo Triviliensi", ASMi cart. 1597 no. 107
 (DECODE R5407), "a different alphabet (A = ⊥ ...)": ⊥ (L) is a homophone of a here, so R5407 may be this cipher's key.
-Not checked.
+Checked as far as this session could, 30 Oct 2026: see "Key R5407" below.
 
 - Homophones: e has five signs (o, w, E, B, q), i four (2, 4, m, ni), a four, s five, t four, u three.
-- Polyphonic signs: qB = u (157) / s (14) / f (7); ooA = u (61) / s (7); s = h / f; 3 = n (g six times, probably 3G
+- Polyphonic signs: qA = s (107) / i (4) / t (3) (the i and t cases found by the retry pass, all seven confirmed as qA
+  on the image); qB = u (157) / s (14) / f (7); ooA = u (61) / s (7); s = h / f; 3 = n (g six times, probably 3G
   misread); tp = b (a twice); gA = o (t twice).
 - Pair units: Ho = p, oH = q, n + u-sign = q (else i), 6/6A + gA = ll.
 - Doubled-letter signs: X = ss, LL = ll, Ob = mm, sl = cc, wL = tt, Od = dd; & = et.
 - Code signs: ff = Serenissimus Dominus Rex (Hungarie), ve = Illustrissimus Princeps / Dominus meus (the Duke), Tx =
-  Maiestas sua, Ga = affinitas, Gp = non, dt / dx = quod, K = quoniam, fo = centum quinquaginta milia; y probably 200,000
-  (2 cases, left unvalued).
+  Maiestas sua, Ga = affinitas, Gp = non, dt / dx = quod, K = quoniam, fo = centum quinquaginta milia; y = ducenta milia (200,000) at both places the
+  minute has the sum (adopted in the retry pass; its third case, at the tt of admittendas, stays open).
 - Nulls: A, al, aN, Rx, e.
 - No word division. Spelling of the cipher writer: double consonants often single (afinitatem, suma, comunem), h
   dropped (retraere).
@@ -84,15 +87,92 @@ from the minute. It does not count a word that rests on an unchecked suspect sig
 
 | page | words | read | % | of undamaged | suspect | unvalued | no sense | damage |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 202 | 172 | 85.1 | 85.6 | 3 | 13 | 13 | 1 |
-| 2 | 198 | 176 | 88.9 | 89.3 | 1 | 1 | 19 | 1 |
-| 3 | 185 | 158 | 85.4 | 90.3 | 4 | 10 | 3 | 10 |
+| 1 | 202 | 178 | 88.1 | 88.6 | 3 | 13 | 7 | 1 |
+| 2 | 198 | 179 | 90.4 | 90.9 | 1 | 1 | 16 | 1 |
+| 3 | 185 | 163 | 88.1 | 93.1 | 4 | 6 | 2 | 10 |
 | 4 | 39 | 38 | 97.4 | 97.4 | 0 | 0 | 1 | 0 |
-| all | 624 | 544 | **87.2** | 88.9 | 8 | 24 | 36 | 12 |
+| all | 624 | 561 | **89.9** | 91.7 | 8 | 20 | 24 | 12 |
 
-Read = 510 exact, 18 spelling variants, 9 different wording (with extendet and condiciones, confirmed on the image) (uigesimam, audiitque, uestitu, euenit, debebit, the order
-"habere uelit tantum"), 7 added words. Strict agreement with the minute (`reading/measure_external.txt`): tokens
-3047/3199 = 95.2%, minute words 503/616 = 81.7%. Under the 95% bar the letter is read in part.
+Read = 519 exact, 21 spelling variants, 14 different wording, 7 added words (`measure.txt`; before the retry 510, 18, 9,
+7). Strict agreement with the minute (`reading/measure_external.txt`): tokens 3047/3199 = 95.2%, minute words 503/616 =
+81.7%. Under the 95% bar the letter is read in part.
+
+## Retry pass (30 Oct 2026)
+
+`scripts/retry.py` (output `reading/retry.md`) takes the 80 words the 29 Oct measure left unread and runs each again
+under an extended key: key.json, plus any value the alignment gives a sign in two or more other places, plus the
+look-alike labels split from one shape family (q -> qA/qB/4, g -> gA/gB, oo, h, 8, 6, 3/3G ...), plus y as a code.
+Grades: C+ reads under the extended key; M reads only if a look-alike label was mis-split; M-slip the image confirmed
+the sister sign, so the slip is the writer's; - nothing explains it.
+
+- C+ 17 words, adopted in `measure.py` (544 -> 561 words, 87.2% -> 89.9%):
+  - qA is polyphonic: s, and i in circa, ipsam, animo, additione, and t in affinitatem, inter, debeat. All seven were
+    checked on the image on 29 Oct and confirmed as qA, so they are not transcription errors; one sign giving the same
+    letter in four (i) and three (t) unrelated words is a homophone the writer used, as qB is u/s/f (6 words).
+  - y = ducenta milia (200,000) at P3L02 and P3L12, the two places the minute has the sum (4 words).
+  - cotraxerat, prefatu: a nasal left out, the omitted-macron spelling (2 words).
+  - wording the cipher has and that fits: debeat for the minute's doubtful "[?deberet]" (P2L20); necessarie, the
+    adverb, for necessaria (P3L08); and P2L22, where the signs give "neque [u]ieat a quibus haberi possit" (nor does he
+    see from whom it could be had) in place of the minute's "imo videat quod ambobus haberi possit": neque, a, quibus
+    read (3 words); [u]ieat is uideat with the d left out and stays unread.
+- M 2 words (reuerendissime P3L17, qB for 4; responso P3L29, gB for gA): both signs were already ambiguous on the
+  image; not counted.
+- M-slip 2 words (ostendit P1L21, 4 for qA; promiserat P2L27, 4 for q): the image shows the sister sign; not counted.
+- Unexplained 47 words, and 12 damaged: no value, sister label or code explains them (Remaining gaps).
+
+## The minute as evidence: circularity
+
+The key in `key.json` was rebuilt by aligning the cipher with the clear minute; `measure.py` calls a word exact when it
+gives the minute's word; the 41 transcription suspects were chosen because they disagreed with the minute; the damaged
+words are filled from the minute; and the retry's minority values come from the same alignment. So agreement with the
+minute (tokens 95.2%, words 81.7%) is in large part built in and does not confirm the key or the reading. Said plainly:
+the minute is the source of the key, not an independent check of it. What does not depend on the minute:
+
+1. **The blind key.** key14 was recovered from the ciphertext alone (annealing, one crib, six reading rounds with image
+   checks) before the minute was found (WORKLOG, 29 Oct 2026: the Vestigia search came after round 6). Compared
+   afterwards: 60 of 81 signs right, covering 96.2% of tokens; of the 424 words its reading had read, 396 (93.4%) are
+   the minute's word. That is the independent test, and it covers the letter signs. It does not cover the code signs
+   (ff, Tx, Ga, Gp, dt, dx, K, fo, ve, y): key14 had them as nulls or unvalued, so their values rest on the minute alone.
+2. **Statistical validation** (`docs/_validate.py`, 30 Oct 2026, model la-letters, order 4, no spaces): the decryption
+   scores -2.140 per letter; random keys of the same structure -5.566 (sd 0.351, z 9.8); keys annealed onto the
+   shuffled ciphertext at best -3.214 (z 41.0); verdict pass. The annealer started from random keys on the real
+   ciphertext reaches -2.185, close to the reading: the ciphertext alone supports a key of this quality. The negative
+   control (`--control --quick`: the reading replaced by a key fitted to shuffled text) does not pass (underdetermined,
+   -3.316). The language model owes nothing to the minute; the test checks the key, not the agreement.
+3. **Text the minute does not have.** Under the key the cipher gives Latin that is not in the minute and fits: "non" in
+   "amabat non mediocriter" where the minute has a doubtful word, "quoniam" where it is illegible, "debeat" where it has
+   "[?deberet]", "neque [u]ieat a quibus" for "imo videat quod ambobus", "habere uelit tantum" for "tantum habere",
+   extendet, euenit, debebit, three added "et". A key fitted to the minute would not give sense where the minute is
+   silent or different.
+4. **The image check went against the minute as often as with it.** Of the 39 suspects, 19 were confirmed as written
+   (the writer departed from the minute) and 9 left ambiguous; 11 were changed, each to a shape the crop shows
+   (`transcription/checks/`).
+5. **The clear closing and address** on p. 4 (date, signature "Filius Mapheus Triuliensis", Bakócz as bishop of Győr and
+   chancellor) are read directly and agree with the minute's date and parties.
+
+What the minute alone supplies: the meanings of the code signs, the polyphonic minority values (qA = i/t, qB = s/f,
+ooA = s), the 12 damaged words, and the choice of the minute's word where several readings would fit. These are graded
+C (from a known-plaintext letter), not H.
+
+## Key R5407
+
+ASMi Carteggio Sforzesco cart. 1597 no. 107, DECODE R5407, headed "Cum Mafeo Triviliensi" (read on the 23 Oct 2026
+contact sheet of the 134 cart. 1597 key headings, `../buda1489/key_R5411.md`). Tried 30 Oct 2026:
+
+- The record could not be opened from this session: de-crypt.org is refused by the session's network policy (HTTP 403
+  at the proxy), and the DECODE login cookie the fetch scripts use lives on the maintainer's machine. No image or
+  transcription of R5407 is in the repository; the heading band seen on 23 Oct is the only sight of it.
+- The one value known, A = ⊥, agrees with this cipher: ⊥ (label L) is a homophone of a here, 38 of 38 aligned cases
+  (key.json; with to and F, the three a-signs). In the 1489 key R5411 the same shape is h, which is one reason R5411 was
+  ruled out. Weight of the agreement: this cipher has about 60 letter signs, three of them for a, so an unrelated key
+  that wrote ⊥ for A would match by chance about 1 time in 20. That supports R5407 as the key of DL 46150 but does not
+  prove it: it is one value, and ⊥ = a may be a habit of the Sforza chancery.
+- The dates fit: R5411 is Maffeo's key of 1489-90 (Buda, to Ludovico Sforza); a second key with Maffeo is expected
+  after Matthias's death (April 1490), and DL 46150 was enciphered in Milan in November 1490 for Bakócz.
+- Not done, and the next step: open R5407 on DECODE, transcribe its alphabet, doubles and nomenclator, and compare it
+  sign by sign with `key.md`. If it is this key, its nomenclator should name the one-off title signs (P1L06 Bianca,
+  P1L10 the Chancellor of Bohemia, P1L17) and settle 8C, y and the "A qB s tp" group, and the minute would no longer be
+  the only source of the code values. `decode_updates/queue.json` carries the pointer for R5407.
 
 ## The cipher and the minute
 
@@ -104,26 +184,45 @@ has a doubtful word, and "quoniam" where the minute is illegible. `reading/clear
 
 ## Remaining gaps
 
-- 33 words resting on the 41 transcription suspects (two of them, P3L04 #26 and P3L05 #1, are alignment artefacts: the cipher has "habere uelit tantum") (`transcription/suspects.md`: one sign disagrees while both
-  neighbours agree, e.g. P1L05 qA in "afinitasem", P2L27 F in "ragi") - blocker: needs an image check sign by sign; not
-  done in this session.
-- 23 words on unvalued signs: the title of Bianca Maria (P1L06), the Chancellor of Bohemia (P1L10) and "Serenissimi
-  Domini Regis sui necnon" (P1L17), each where a letter sign stands for a phrase once; y (200,000, P3L02, P3L12);
-  8C (4 tokens: i, x, ii); the "A qB s tp" group at "summa ducentorum milium" (P3L08) - blocker: single occurrences, no
-  second case to fix a value.
-- 22 words that give no fitting Latin: writer slips (proter, presenis, prefatu, cotraxerat) and the stretch "imo uideat
-  quod ambobus" (P2L22), which the signs give as "neq uuieat a quibus"; "s p" at the end of P4L05 - blocker: not
-  resolved from the key; image check pending.
-- 12 words with a lost sign (P3L15-21 above all), filled from the minute in ⟨⟩ - blocker: illegible (damage).
+- 8 words on signs the 29 Oct image check left ambiguous (P1L04 dominationem, P1L05 cepit, P1L20 semper, P2L17
+  adduxit, P3L10 secundum, P3L17 reuerendissime, P3L19 descendit, P3L29 responso) - blocker: illegible; each sign was
+  checked on the Hungaricana scan, the only image there is, and lies on a crease or under a blot or falls between two
+  look-alike shapes (qB/gA, gA/gB, 5/gB, Q/Y/g); the retry reads reuerendissime and responso if the sign is the sister
+  shape (grade M), which only the original in MNL OL could settle.
+- 15 words on letter signs that stand once for a title or phrase: P1L06 "Illustrissime Domine Blance" (x), P1L10
+  "Magnifico Domino Cancellario Boemie" (a), P1L17 "Serenissimi Domini Regis sui necnon" (w, Q), P3L08 "summa
+  ducentorum milium" (A qB s tp) - blocker: open-codes; each stands once, so this letter cannot fix a value, and the
+  meaning comes from the minute alone; the nomenclator of R5407, if it is this key, would name them (see "Key R5407").
+- 4 words on signs with no value at that place: P1L12 excellentia (8, a, 6, d in one word, two of them confirmed on the
+  image), P3L21 reiici (8C: 4 tokens, i twice, ii once), P3L27 admittendas (y where tt stands), P3L09 esse (only the
+  null A stands there: the word is not enciphered) - blocker: too-short; single cases, no second occurrence to fix a
+  value; R5407 would settle 8C and y.
+- 9 words where the image check confirmed the writer's sign and the retry finds no homophone link (cicius P1L01,
+  amictssimo P1L19, minisse P2L14, petite P2L15, ragi P2L27, ostendare P2L28) or only a sister label (oitendit P1L21,
+  promisirat P2L27), and P3L17 "et" for "ut" (o for u) - blocker: too-short; the writer's own departures, each once;
+  the intended word is clear from the sentence (grade I) but is not counted.
+- 15 words that give no fitting Latin and were not in the single-sign suspect list: letters left out (presenis P1L02,
+  proter P2L07 and P2L08, ali P2L24, [u]ieat P2L22) and multi-sign departures (mel and et for "mea ex" P1L11, reeatur
+  P1L19, ubeiimum and frsotum P2L02, ad for "et" P2L11, quemamthum P2L15, ssga P3L03, ainc P4L01), and the extra ff on
+  P2L03 - blocker: too-short; each departure occurs once and no value, sister label or code in the extended key explains
+  it (retry pass); an image check of the multi-sign ones was not made in this session (the page images are not in the
+  repository) and is the one step that could still change them.
+- 12 words with a lost sign (P1L18, P2L16, P3L15-21, P3L28), filled from the minute in ⟨⟩ - blocker: illegible; holes
+  and blots in the paper.
 
 ## Escalation
 
-- [x] siblings: `../buda1489` (Milan copies of Maffeo's letters) and key R5411: a different alphabet
+- [x] siblings: `../buda1489` (Milan copies of Maffeo's letters) and key R5411: a different alphabet; Vestigia lists a
+  later Maffeo letter to Bakócz (13 Nov 1492, sc. 645, Vestigia 2251, a copy) to try with this key
 - [x] clear-pages: the closing and address on p. 4 are in clear; the clear minute is ASMi Sforzesco 642 (Vestigia 194)
-- [x] known-keys: R5411 and Somogyi's key ruled out; R5407 (second Maffeo key, A = ⊥) not yet compared
+- [x] known-keys: R5411 and Somogyi's key ruled out; R5407 (second Maffeo key) tried 30 Oct 2026 as far as possible:
+  its one known value A = ⊥ agrees (L = a, 38 of 38); the record itself was unreachable from this session (DECODE
+  refused by the network policy), so the full comparison is still to do
 - [x] print: no edition of DL 46150 found; Vestigia 194 prints the minute
-- [x] key-rebuild: ciphertext-only (key14, 79.2% strict) and from the minute (key.json)
-- [ ] retry: image check of the 41 suspects, 8C and "s p" - blocker: not-attempted
+- [x] key-rebuild: ciphertext-only (key14, 79.2% strict), from the minute (key.json), extended in the retry (qA = s/i/t,
+  y = 200,000)
+- [x] retry: `scripts/retry.py` (30 Oct 2026) re-ran all 80 unread words under the extended key and regraded them: 17
+  regained (C+), 2 M, 2 M-slip, 47 unexplained, 12 damaged; `reading/retry.md`
 
 ## History
 
@@ -136,13 +235,19 @@ has a doubtful word, and "quoniam" where the minute is illegible. `reading/clear
 ### 29 Oct 2026: transcription, ciphertext-only break, key from the minute (claude-opus-5-5)
 See `WORKLOG.md`.
 
+### 30 Oct 2026: review fixes for PR #199 (claude-opus-5-5)
+Retry pass (`scripts/retry.py`, 544 -> 561 words), key R5407 tried (one value agrees; record unreachable), circularity
+note, statistical validation (`validation.tsv`, `scripts/make_validation.py`; pass), Latin letters model `la-letters`
+added to `lang/` (Gutenberg unreachable), write-up page. See `WORKLOG.md`.
+
 ## Files
 
 - `transcription/p1.txt`-`p4.txt` (final), `signs.md`, `suspects.md`, `p4_clear.txt`
 - `key.json`, `key.md`; `scripts/build_key.py` writes them from `scripts/data/key_external.json`
 - `reading/p1.md`-`p4.md`, `latin.md`, `english.md`; `clear_minute.txt`, `clear_minute_running.txt`,
   `clear_vs_cipher.md`, `align.md`, `measure_external.txt`
-- `measure.py` -> `measure.txt` and the reading files
+- `measure.py` -> `measure.txt` and the reading files; `scripts/retry.py` -> `reading/retry.md`
+- `validation.tsv` (from `scripts/make_validation.py`) for `docs/_validate.py`
 - `scripts/`: `hsolve.py` (annealer), `refine.py`, `control.py`, `dec14.py`, `build14.py`, `measure14.py` (the
   ciphertext-only rounds; they ran from the working folder and expect its files), `ext/` (alignment with the minute),
   `data/` (alignment.json, key_external.json, key14.json)

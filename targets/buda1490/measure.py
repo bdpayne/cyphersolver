@@ -30,7 +30,14 @@ P, WORDS, WID = A['path'], A['words'], A['wid']
 KEY = {s: k for s, k in json.load(open(H / 'key.json')).items() if not s.startswith('_')}
 DAM = '_'
 
-SPELLING = {('P3L24', 'sanguine')}                              # sangine
+SPELLING = {('P3L24', 'sanguine'),                              # sangine
+            ('P2L10', 'contraxerat'), ('P1L08', 'prefatum')}     # cotraxerat, prefatu: nasal left out (retry, 30 Oct 2026)
+# Extended key (retry pass, 30 Oct 2026; scripts/retry.py, reading/retry.md): values key.json's acceptance rule left out.
+# qA = i in four words (circa, ipsam, animo, additione) and t in three (affinitatem, inter, debeat), every one of the
+# seven checked on the image and confirmed as qA (transcription/suspects.md): qA is polyphonic s/i/t like qB (u/s/f).
+# y = the code for 200,000 at both places the minute has "ducenta milia" / "ducentorum milium".
+EXTENDED = {'qA': {'i', 't'}}
+EXT_CODE = {'y': {'ducentamilia', 'ducentorummilium'}}
 WORDING = {('P1L01', 'uigesimamquartam'): 'ad uigesimam diem (the 20th; the minute: 24th)',
            ('P1L12', 'audiuitque'): 'audiitque, the contracted perfect',
            ('P3L08', 'uestitum'): 'in uestitu sponse (ablative)',
@@ -40,8 +47,15 @@ WORDING = {('P1L01', 'uigesimamquartam'): 'ad uigesimam diem (the 20th; the minu
                                 'alignment crossed the two words, so its suspects P3L04 #26 and P3L05 #1 are artefacts',
            ('P3L05', 'habere'): 'see tantum',
            ('P3L02', 'extendit'): 'extendet (future); the w (P3L03 #5) is confirmed on the image (suspects.md)',
-           ('P3L20', 'conditiones'): 'condiciones; the mH is confirmed on the image (suspects.md)'}
-DISPLAY = {('P3L04', 'tantum'): 'habere', ('P3L05', 'habere'): 'tantum'}   # the cipher's word order
+           ('P3L20', 'conditiones'): 'condiciones; the mH is confirmed on the image (suspects.md)',
+           ('P2L20', 'deberet'): 'debeat (qA = t, extended key); the minute word is itself doubtful ("[?deberet]")',
+           ('P3L08', 'necessaria'): 'necessarie, the adverb ("necessarie exponenda esse")',
+           # P2L22: the cipher has "neque [u]ideat a quibus haberi possit" (nor does he see from whom it could be had)
+           # where the minute has "imo videat quod ambobus haberi possit" (retry, 30 Oct 2026)
+           ('P2L22', 'imo'): 'neque (the cipher wording: "neque uideat a quibus haberi possit")',
+           ('P2L22', 'quod'): 'a (neque uideat a quibus)', ('P2L22', 'ambobus'): 'quibus (neque uideat a quibus)'}
+DISPLAY = {('P3L04', 'tantum'): 'habere', ('P3L05', 'habere'): 'tantum',   # the cipher's word order
+           ('P2L22', 'imo'): 'neque'}
 EXTRA_ADDED = [dict(line='P3L04', form='uelit', after=('P3L04', 'tantum'), note='uelit (habere uelit tantum)')]
 READABLE_SUSPECT = {('P3L03', 'extendit'): 'extendet (future)', ('P3L20', 'conditiones'): 'condiciones'}
 ADDED_SENSE = {('P1L25', 'Gp'): 'non (amabat non mediocriter)', ('P3L02', '&'): 'et', ('P3L12', '&'): 'et',
@@ -54,7 +68,9 @@ UNVALUED_SIGNS = {'8C', 'y', 'H', '6'}
 def ok(p):
     k = KEY.get(p['sign'])
     if p['sign'] == DAM or not k: return False
+    if p['type'] == 'code' and p['txt'] in EXT_CODE.get(p['sign'], ()): return True
     if p['type'] == 'code': return k['kind'] == 'code' and p['txt'] in k['values']
+    if p['txt'] in EXTENDED.get(p['sign'], ()): return True
     if k['kind'] == 'code': return False
     return p['txt'] in k['values'] or (k['kind'] == 'null' and p['txt'] == '')
 
@@ -65,8 +81,9 @@ def emit(p):
     if s == DAM: return '_'
     if not k: return '#'
     if k['kind'] == 'null': return ''
+    if p['type'] == 'code' and p['txt'] in EXT_CODE.get(s, ()): return '{' + p['txt'] + '}'
     if k['kind'] == 'code': return '{' + (p['txt'] if p['type'] == 'code' else k['values'][0]) + '}'
-    if p['txt'] in k['values']: return p['txt']
+    if p['txt'] in k['values'] or p['txt'] in EXTENDED.get(s, ()): return p['txt']
     return k['values'][0] if k['values'] else '#'
 
 

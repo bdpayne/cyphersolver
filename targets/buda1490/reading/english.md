@@ -21,11 +21,11 @@ king's will and decision.
 ## Page 1
 
 Not [?sooner] than the twentieth day [?of this] month was I able to reach my Most Illustrious Prince. To him, when the
-occasion offered, I faithfully set out the work done by Your Most Reverend [?Lordship] [?concerning] the [?affinity]
-that [?began] to be contracted [?between] the Most Serene Lord King of Hungary and my aforesaid Most Illustrious Lord,
+occasion offered, I faithfully set out the work done by Your Most Reverend [?Lordship] concerning the affinity
+that [?began] to be contracted between the Most Serene Lord King of Hungary and my aforesaid Most Illustrious Lord,
 by means of [...] [...] [...] (the Most Illustrious Lady Bianca), his sister; and how lately I was called to Buda on
-his behalf and introduced by her to the [?aforesaid] Most Serene Lord King; and finally what was said and treated with
-me by [?her] together with [...] [...] [...] [...] (the Magnificent Lord Chancellor of Bohemia), to whom the Most
+his behalf and introduced by her to the aforesaid Most Serene Lord King; and finally what was said and treated with
+me by her together with [...] [...] [...] [...] (the Magnificent Lord Chancellor of Bohemia), to whom the Most
 Serene Lord King had entrusted the matter to be handled. [?His] [?Excellency] [?received] [?it] [?gladly] and heard
 most willingly that the Most Serene Lord King is well disposed to contract an affinity with him. And since he learned
 from my words that Your Most Reverend Lordship too is most devoted to it, although he ought to incline to it chiefly
@@ -42,22 +42,23 @@ you taken, of which he will without doubt reap the [?richest] [?fruit] [?wheneve
 Most Serene Lord King [...] is wonderfully welcome to my Most Illustrious Prince, because, besides the fact that His
 Excellency has always followed His Majesty with the highest love and goodwill, even before he ascended that throne,
 [?both] for his royal dignity and [?for] the singular goodness of his mind, since it was his intention to be joined
-with your kingdom through the affinity which he had [?contracted] with King Matthias, [...] (and) that the Lord King
+with your kingdom through the affinity which he had contracted with King Matthias, [...] (and) that the Lord King
 himself was raised up by you, he will persuade himself, [?if] this affinity goes ahead, that he has continued what was
 begun before, not [?entered] into something new. It is true that the dowry sum [?asked] by His Majesty, [?as] it was
 seen to exceed measure, so it brought my Most Illustrious Prince into ⟨some⟩ [?hesitation]. For it seemed hard to
-him, as I too reminded Your Most Reverend Lordship, that such a sum [?should] be asked of him as no king, however
-great, ever received in the name of dowry, [...] (nay, let him) [?see] [...] [...] (how it can be had by both). But if
+him, as I too reminded Your Most Reverend Lordship, that such a sum should be asked of him as no king, however
+great, ever received in the name of dowry, nor does he [?see] from whom it could be had (the minute: "nay, let him see how
+it can be had by both"). But if
 His aforesaid Royal Majesty inclines to this affinity, as both she and you [?formerly] affirmed to me, the Excellency
-of my Prince will be content with some [?addition] of dowry above what he once [?promised] [?King] Matthias, [?to show]
+of my Prince will be content with some addition of dowry above what he once [?promised] [?King] Matthias, [?to show]
 that he wishes to have good regard both for the dignity of the house and for the nobility of her blood.
 
 ## Page 3
 
-And [?as] he had before come down to one hundred and fifty thousand ducats, now he extends himself to [...] [...]
-(two hundred thousand), whether (the King) wishes to receive part of that [...] (sum) in [?jewels] or wishes to have
+And [?as] he had before come down to one hundred and fifty thousand ducats, now he will extend himself to two hundred
+thousand, whether (the King) wishes to receive part of that [...] (sum) in [?jewels] or wishes to have
 money only: that will be left to the judgement of the Royal Majesty, [?except] that if he wants money only, he should
-know that out of the said [...] [...] [...] (sum of two hundred thousand) ten thousand must [?necessarily] be spent on
+know that out of the said [...] [...] [...] (sum of two hundred thousand) ten thousand must necessarily be spent on
 the clothing of the bride [...]; as for the jewels, the aforesaid Royal Majesty is to provide honourably [?according
 to] the dignity of both parties. And that sum, great as it is, any most worthy and most eminent king can and ought to
 ⟨think⟩ ⟨befitting⟩ for himself. This is ⟨the substance⟩ ⟨of what⟩ I could draw out of my Most Illustrious Prince in
