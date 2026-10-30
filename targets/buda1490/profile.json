@@ -346,6 +346,16 @@
    "kind": "verification",
    "what": "Circularity with the Milan minute set out in NOTES ('The minute as evidence'): key.json, the exact-word measure, the suspect list, the damage fills and the retry's minority values all come from the minute, so agreement with it is not a confirmation. Independent evidence: the ciphertext-only key14 (before the minute was found) right on 60 of 81 signs, 96.2% of tokens, its reading 396 of 424 words exact; the LM validation (pass; annealer on the real ciphertext alone reaches -2.185 against -2.140 for the reading); Latin read where the minute differs or is silent (non, quoniam, debeat, neque uideat a quibus). The code-sign values rest on the minute alone.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-30",
+   "kind": "verification",
+   "technique": [
+    "key matching",
+    "plaintext matching"
+   ],
+   "what": "Regrade of the read words (scripts/regrade.py -> reading/regrade.md), the doubtful-reading half of the retry step: each of the 561 read words decoded again with every value a key allows. B (key.json and the ciphertext-only key14 both give it) 466; K (key.json only) 16; X (extended qA = i/t) 7; C (code signs, meaning from the minute) 72; D (needs an emendation) 0. The crossed stretches P3L04-05 'habere uelit tantum' and P2L22 'neque ... a quibus' spell out under key values. No reading withdrawn; 466 of 624 words (74.7%) read independently of the minute.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -444,7 +454,7 @@
    {
     "item": "15 words with letters left out or multi-sign departures (presenis, proter x2, ali, [u]ieat, mel, et for ex, reeatur, ubeiimum, frsotum, ad, quemamthum, ssga, ainc) and the extra ff on P2L03",
     "blocker": "too-short",
-    "detail": "each once, nothing in the extended key explains them; an image check of the multi-sign ones not made in this session"
+    "detail": "each once, nothing in the extended key explains them; the shape check on the image of the ten multi-sign ones is still to do and needs the page images (not in the repository; Hungaricana refuses this session)"
    },
    {
     "item": "12 words with a lost sign, mostly P3L15-21",

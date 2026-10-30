@@ -120,6 +120,26 @@ the sister sign, so the slip is the writer's; - nothing explains it.
 - M-slip 2 words (ostendit P1L21, 4 for qA; promiserat P2L27, 4 for q): the image shows the sister sign; not counted.
 - Unexplained 47 words, and 12 damaged: no value, sister label or code explains them (Remaining gaps).
 
+## Regrade of the read words (30 Oct 2026)
+
+The second half of the retry step: the doubtful readings among the read words. `scripts/regrade.py` (output
+`reading/regrade.md`) decodes every word `measure.py` counts as read again, sign by sign, with every value a key allows
+(nulls may give nothing), and grades it by what the reading rests on: B, key.json and the blind key14 (ciphertext only,
+before the minute was found) both give the word as read; K, key.json gives it and key14 does not; X, only the extended
+key (qA = i/t) gives it; C, a code sign; D, no key gives the form as read. Where the alignment crossed the minute's word
+order the stretch is tested as one group in the cipher's order.
+
+- Of the 561 read words: B 466, K 16, X 7, C 72, D 0.
+- The doubtful readings: the 21 spelling variants are 19 B, 1 K (sangine: 3 = g, key14 had 3 = n), 1 X (afinitatem,
+  qA = t); the 9 wording readings 8 B, 1 X (debeat); the two crossed stretches are B: P3L04-05 "habere uelit tantum"
+  is spelt by s F tp o a w qB o hA 2 Q Q to 3 gB qB x under key values, so "uelit" is not supplied from outside, and
+  P2L22 spells "neque" in full (P o oH qB w), then [u]ieat (unread) and "a quibus"; of the 7 added words, the three "et"
+  are B and non, quoniam, quod are C.
+- No read word needs an emendation or abbreviation to be counted: the D grade is empty, so nothing was moved.
+- The 16 K words rest on values key14 did not have (3 = g in regnum, regno, dignitatem twice, agi, sangine; gA = t in sit,
+  cepta; tp = a in quam, exponenda; 6 = c in cui; H = p in ceptum; and the double-letter signs Ob = mm, sl = cc,
+  wL = tt, Bd = x, which key14 left unvalued). Each value recurs in other words, but its source is the alignment.
+
 ## The minute as evidence: circularity
 
 The key in `key.json` was rebuilt by aligning the cipher with the clear minute; `measure.py` calls a word exact when it
@@ -147,11 +167,15 @@ the minute is the source of the key, not an independent check of it. What does n
 4. **The image check went against the minute as often as with it.** Of the 39 suspects, 19 were confirmed as written
    (the writer departed from the minute) and 9 left ambiguous; 11 were changed, each to a shape the crop shows
    (`transcription/checks/`).
-5. **The clear closing and address** on p. 4 (date, signature "Filius Mapheus Triuliensis", Bakócz as bishop of Győr and
+5. **The regrade** (`reading/regrade.md`): 466 of the 624 words (74.7%) read with values the blind key14 also has,
+   so they do not rest on the minute; the other 95 read words rest on it (72 on code signs, 16 on key.json values key14
+   lacked, 7 on the extended qA = i/t). The table in `reading/regrade.md` lists every read word that is not graded B.
+6. **The clear closing and address** on p. 4 (date, signature "Filius Mapheus Triuliensis", Bakócz as bishop of Győr and
    chancellor) are read directly and agree with the minute's date and parties.
 
-What the minute alone supplies: the meanings of the code signs, the polyphonic minority values (qA = i/t, qB = s/f,
-ooA = s), the 12 damaged words, and the choice of the minute's word where several readings would fit. These are graded
+What the minute alone supplies: the meanings of the code signs (72 read words), the values key14 did not have (16
+words), the polyphonic minority values (qA = i/t, 7 words), the 12 damaged words, and the choice of the minute's word
+where several readings would fit. These are graded
 C (from a known-plaintext letter), not H.
 
 ## Key R5407
@@ -204,8 +228,10 @@ has a doubtful word, and "quoniam" where the minute is illegible. `reading/clear
 - 15 words with letters left out or multi-sign departures - blocker: too-short; presenis P1L02, proter P2L07 and P2L08,
   ali P2L24, [u]ieat P2L22 (letters left out); mel and et for "mea ex" P1L11, reeatur P1L19, ubeiimum and frsotum P2L02,
   ad for "et" P2L11, quemamthum P2L15, ssga P3L03, ainc P4L01; and the extra ff on P2L03: each departure occurs once and
-  no value, sister label or code in the extended key explains it (retry pass); an image check of the multi-sign ones was
-  not made in this session (the page images are not in the repository) and is the one step that could still change them.
+  no value, sister label or code in the extended key explains it (retry pass). Still open: a shape check on the image of
+  the ten multi-sign ones, as was done for the 39 one-sign suspects. It needs the page images, which are not in the
+  repository (they were supplied from the contributor's own browser on 29 Oct 2026), and Hungaricana refuses this
+  session; it is the one step that could still change these words.
 - 12 words with a lost sign - blocker: illegible; P1L18, P2L16, P3L15-21, P3L28: holes and blots in the paper; filled
   from the minute in ⟨⟩.
 
@@ -221,7 +247,8 @@ has a doubtful word, and "quoniam" where the minute is illegible. `reading/clear
 - [x] key-rebuild: ciphertext-only (key14, 79.2% strict), from the minute (key.json), extended in the retry (qA = s/i/t,
   y = 200,000)
 - [x] retry: `scripts/retry.py` (30 Oct 2026) re-ran all 80 unread words under the extended key and regraded them: 17
-  regained (C+), 2 M, 2 M-slip, 47 unexplained, 12 damaged; `reading/retry.md`
+  regained (C+), 2 M, 2 M-slip, 47 unexplained, 12 damaged; `reading/retry.md`. The doubtful read words regraded by
+  `scripts/regrade.py` (30 Oct 2026): 466 B, 16 K, 7 X, 72 C, 0 D, nothing withdrawn; `reading/regrade.md`
 
 ## History
 
@@ -237,7 +264,8 @@ See `WORKLOG.md`.
 ### 30 Oct 2026: review fixes for PR #199 (claude-opus-5-5)
 Retry pass (`scripts/retry.py`, 544 -> 561 words), key R5407 tried (one value agrees; record unreachable), circularity
 note, statistical validation (`validation.tsv`, `scripts/make_validation.py`; pass), Latin letters model `la-letters`
-added to `lang/` (Gutenberg unreachable), write-up page. See `WORKLOG.md`.
+added to `lang/` (Gutenberg unreachable), write-up page; regrade of the read words against the blind key
+(`scripts/regrade.py`: 466 of 624 words independent of the minute, no reading withdrawn). See `WORKLOG.md`.
 
 ## Files
 
@@ -245,7 +273,8 @@ added to `lang/` (Gutenberg unreachable), write-up page. See `WORKLOG.md`.
 - `key.json`, `key.md`; `scripts/build_key.py` writes them from `scripts/data/key_external.json`
 - `reading/p1.md`-`p4.md`, `latin.md`, `english.md`; `clear_minute.txt`, `clear_minute_running.txt`,
   `clear_vs_cipher.md`, `align.md`, `measure_external.txt`
-- `measure.py` -> `measure.txt` and the reading files; `scripts/retry.py` -> `reading/retry.md`
+- `measure.py` -> `measure.txt` and the reading files; `scripts/retry.py` -> `reading/retry.md`;
+  `scripts/regrade.py` -> `reading/regrade.md`
 - `validation.tsv` (from `scripts/make_validation.py`) for `docs/_validate.py`
 - `scripts/`: `hsolve.py` (annealer), `refine.py`, `control.py`, `dec14.py`, `build14.py`, `measure14.py` (the
   ciphertext-only rounds; they ran from the working folder and expect its files), `ext/` (alignment with the minute),
