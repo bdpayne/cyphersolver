@@ -57,7 +57,7 @@ Not checked.
 ## How the key was obtained
 
 1. **Images.** The 28 Oct stub could not get past the Hungaricana viewer (CORS in the built-in browser; a 403 to direct
-   requests). The user supplied the three image files (p. 1, the pp. 2-3 spread, p. 4) from his own browser; they stay
+   requests). The user supplied the three image files (p. 1, the pp. 2-3 spread, p. 4) from their own browser; they stay
    out of git (link above).
 2. **Transcription** by Claude agents from crops, then shape-only split passes (q into qA/qB/4; g, oo, h, 8, 6) and two
    rounds of key-guided image repairs where every change had to be visible on the image (`transcription/signs.md`,

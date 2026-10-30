@@ -6,7 +6,7 @@ One line per step, failures included. The reading rounds of 29 Oct were stamped 
 - 2026-10-28 (sonnet) Read buda1489 NOTES, key_R5411.md, the 1235 verification record; planned to test R5411. Worked.
 - 2026-10-28 (sonnet) Hungaricana viewer for charter 228061: tiles blocked by CORS in the built-in browser, tile URLs encrypted; only 829 px thumbnails. FAILED; stub "not attempted / blocked".
 - 2026-10-29 Direct requests to the Hungaricana tile CDN return 403. FAILED (nothing bypassed).
-- 2026-10-29 The user (harrison-bornstein) fetched the three images (orig_1 p. 1, orig_2 pp. 2-3, orig_3 p. 4) in his own browser and supplied them. Worked.
+- 2026-10-29 The user (harrison-bornstein) fetched the three images (orig_1 p. 1, orig_2 pp. 2-3, orig_3 p. 4) in their own browser and supplied them. Worked.
 - 2026-10-29 WSL restart lost the first session's work kept under /tmp (crops, first transcription, solver runs); redone in a persistent folder (/home/.../cyphersolver-1235). FAILED, then redone.
 - 2026-10-29 Control: synthetic Latin homophonic text of the same length and alphabet size (control.py, ctl_ct.txt) for the annealer; outcome not recorded in the working files.
 - 2026-10-29 Transcription pass 1 of the four pages by agents from 2x line crops (p1-p4_pass1.txt), sign sheet inv/SHEET.png (signs.md). Worked; 3,199 tokens.

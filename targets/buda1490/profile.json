@@ -136,7 +136,7 @@
   {
    "date": "2026-10-29",
    "kind": "access",
-   "what": "The user fetched the three cipher images (p. 1, pp. 2-3, p. 4) from Hungaricana charter 228061 in his own browser and supplied them (kept out of git).",
+   "what": "The user fetched the three cipher images (p. 1, pp. 2-3, p. 4) from Hungaricana charter 228061 in their own browser and supplied them (kept out of git).",
    "result": "worked"
   },
   {
