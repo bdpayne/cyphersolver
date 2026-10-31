@@ -51,3 +51,15 @@ Files: `transcription.txt`, `decryption.txt`, `reading.md`, `translation.md`, `k
 - The connubio: marriage of priests, which Maximilian II asked of Rome; Dengel (NB II/5, introduction) recalls that the Emperor hoped to obtain it until the death of Pius IV on 9 December 1565.
 - The date: “uiena” and “di decembre del {sesanta}” are read; code 14569, twice, is restored [cinque] only from the year 1565 given by the neighbouring plain-text letters (15/11/1565 before, 16/1/1566 after). The day is not established. 7v 22 ends with an isolated word (1886) that is not read, and the date with another (10869).
 - Re-reading of the image: 7v 22–23, the short line ending the text stops after “1886”; “64” (di) opens the date line (probable reading).
+
+## Remaining gaps
+- 19 unresolved words of letter 2 (7r ll. 38-41 and 7v ll. 10-23), each inside a sentence that otherwise reads - blocker: no-key-material; code groups with no value in any key, sibling or print, each occurs once, no context narrows them
+- letter 1 (fols 6v-7r l. 27; 729 words, 94.5% read, 40 unresolved) - blocker: no-key-material; read by Brice Dudout but its text is not published here, so it is not counted
+
+## Escalation
+- [x] siblings: the register's neighbouring letters (fol. 6r to Altemps, 15 Nov 1565; fol. 7v bottom to the Emperor, 16 Jan 1566) are in plain text; letter 1 is the sibling cipher and trained the key
+- [x] clear-pages: no decipherment or interlinear on the register leaves (cipher letters entirely in cipher)
+- [x] known-keys: no contemporary key or decipherment found for this register; none to try
+- [x] print: Dengel, Nuntiaturberichte II/5 (1926) uses the register but prints neither cipher letter; web search on read phrases negative (profile, 29 Oct 2026)
+- [x] key-rebuild: key K5d rebuilt from the ciphertext alone (annealing on letter 1 and letter 2, then by hand) and frozen before validation
+- [x] retry: reading frozen (SHA-256) and recounted word by word after the key was fixed; the 19 left cannot be settled by context

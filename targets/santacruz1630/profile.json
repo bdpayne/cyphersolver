@@ -187,7 +187,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "key A rebuilt and validated on a held-out pair; D.213 transcribed and read, Spanish text and English translation",
-    "date": "2026-10-28"
+    "date": "2026-10-28",
+    "source": "Brice Dudout, email of 29 Oct 2026 (branch dudout/bundle-spain-italy, merged 30 Oct 2026)"
    }
   ],
   "gaps": [
@@ -206,10 +207,30 @@
     "translation": "translation.md",
     "language": "es",
     "state": "read",
-    "summary": "October 1630: before besieged Casale, the French and Spanish armies are about to fight when a young papal envoy, Giulio Mazarini, rides between the lines and wrests an agreement. On 6 December Philip IV answers his governor of Milan, the Marquis of Santa Cruz, in cipher: he approves the agreement, which “restored the reputation” of a discredited Emperor, wants a peace concluded before March, orders a secret inquiry into the army’s unreadiness, insists that Casale and Mantua stay guarded by the Emperor and that the Milanese be fortified — “and above all do not spend a single real badly”."
+    "summary": "October 1630: before besieged Casale, the French and Spanish armies are about to fight when a young papal envoy, Giulio Mazarini, rides between the lines and wrests an agreement. On 6 December Philip IV answers his governor of Milan, the Marquis of Santa Cruz, in cipher: he approves the agreement, which “restored the reputation” of a discredited Emperor, wants a peace concluded before March, orders a secret inquiry into the army’s unreadiness, insists that Casale and Mantua stay guarded by the Emperor and that the Milanese be fortified — “and above all do not spend a single real badly”.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5 (write-up review)",
+     "date": "2026-10-30",
+     "note": "reading.md and translation.md read as sentences: five long chancery paragraphs (Vilani's arrival and the Casale agreement of Mazarini; seek a better peace but conclude by March; the answer to the Duke of Savoy and the inquiry into the army; fortify the Milanese and spend nothing badly). The nine unresolved words (29, 28, lor, nat, dol x2, dul, mur, fri) leave every sentence parseable; 28 probable and 22 restored words are marked and justified in NOTES."
+    }
+   },
+   {
+    "doc": "santa-cruz-c50-d167",
+    "label": "Held-out validation letter: Philip IV to the Marquis of Santa Cruz, Madrid, 29 January 1630 (AHNOB SANTA CRUZ,C.50,D.167, with the contemporary decipherment D.168)",
+    "transcription": "validation/D167_cipher.txt",
+    "decryption": "validation/D168_plain.txt",
+    "language": "es",
+    "state": "not prose",
+    "note": "Test material, not a reading: the transcription of D.167 and its contemporary decipherment (image 6, shelfmark D.168), scored in validation/score.txt (0.752 of words, 0.857 of characters)."
    }
   ],
   "key_file": "key_K6A.tsv",
-  "provenance": "contributed"
+  "provenance": "contributed",
+  "validation": {
+   "date": "2026-10-28",
+   "verdict": "pass",
+   "notes": "Contributor's pre-registered held-out test (not docs/_validate.py): key K6A frozen, then scored on D.167 against its contemporary decipherment: 0.752 of words, 0.857 of characters, against p99 0.257 / 0.591 for 200 permuted-value control keys; criterion (0.75 / 0.85) met narrowly. Earlier K5 checks: D.163 0.842, D.175 0.871, D.31 0.705 (words)."
+  }
  }
 }

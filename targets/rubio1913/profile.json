@@ -202,7 +202,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "key sheet identified, validated on a contemporary pair, three telegrams transcribed and read, English translation",
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "source": "email of 29 Oct 2026 and branch dudout/bundle-north-east-colonies; https://bdudout.github.io/europe-chiffree/en/documents.html#rubio-1913"
    }
   ],
   "texts": [
@@ -215,7 +216,13 @@
     "translation": "translation.md",
     "language": "es",
     "state": "read",
-    "summary": "Laredo garrison courted by the Carrancistas; General Treviño at San Antonio in touch with revolutionaries; Téllez should stay at Laredo."
+    "summary": "Laredo garrison courted by the Carrancistas; General Treviño at San Antonio in touch with revolutionaries; Téllez should stay at Laredo.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as Spanish sentences and translated: the cipher passages of the three telegrams (67 words) read as coherent sentences with the plain text around them; three probable words only. The scorer's 55% counts the plain-text stretches as holes."
+    }
    },
    {
     "doc": "cehm-dlxxiii-2-41-9-41",
@@ -226,7 +233,13 @@
     "translation": "translation.md",
     "language": "es",
     "state": "read",
-    "summary": "Only waiting for material and troops to rebuild the railway; two months to finish."
+    "summary": "Only waiting for material and troops to rebuild the railway; two months to finish.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as Spanish sentences and translated: the cipher passages of the three telegrams (67 words) read as coherent sentences with the plain text around them; three probable words only. The scorer's 55% counts the plain-text stretches as holes."
+    }
    },
    {
     "doc": "cehm-dlxxiii-2-41-13-41",
@@ -237,7 +250,13 @@
     "translation": "translation.md",
     "language": "es",
     "state": "read",
-    "summary": "Troops urgently needed: the rebels are destroying the railway to Torreón."
+    "summary": "Troops urgently needed: the rebels are destroying the railway to Torreón.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as Spanish sentences and translated: the cipher passages of the three telegrams (67 words) read as coherent sentences with the plain text around them; three probable words only. The scorer's 55% counts the plain-text stretches as holes."
+    }
    }
   ],
   "key_file": "key.tsv",

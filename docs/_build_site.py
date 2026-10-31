@@ -399,6 +399,11 @@ PAGES = [
          blurb='Twenty-eight ciphered passages in the register of the nuncio at Vienna (BAV Barb.lat. 6960, DECODE R286&ndash;R313). Their contents were printed in 1897 from the Roman decipherments. The key is Biermann and Bosbach&rsquo;s of 2018 for the sibling volume 6956, which George Lasry found also fits 6960; applied here, it gives running Italian in every record, with about 1,750 code groups open. Earlier attacks made before the key was known are recorded.',
          quote='&ldquo;&hellip;con che il demonio resteria ingannato e burlato.&rdquo;',
          rights='Manuscript rights: Biblioteca Apostolica Vaticana'),
+    dict(slug='santacruz1630', label='Philip IV to Santa Cruz 1630', year='1630', y=1630.93, place='Madrid &rarr; Milan', st='solved', stt='read',
+         title='Philip IV to the Marquis of Santa Cruz, Madrid, 6 December 1630',
+         blurb='A seven-page royal cipher letter to the governor of Milan, marked &ldquo;sin descifrar&rdquo; in the Archivo Hist&oacute;rico de la Nobleza (SANTA CRUZ C.50 D.213). Brice Dudout rebuilt the key from fourteen cipher and decipherment pairs of the same correspondence and tested it on a held-out letter (0.752 of words, 0.857 of characters), then read 1,162 of 1,171 words. The King approves the Casale agreement obtained by Mazarini, wants peace by March and orders a secret inquiry into the army. Contributed by Brice Dudout.',
+         quote='&ldquo;con el Emperador en estado tan quebrado y desacreditado, se ha soldado la reputaci&oacute;n con ventaja&rdquo;',
+         rights='Archivo Hist&oacute;rico de la Nobleza (PARES); text and translation: Brice Dudout, CC BY 4.0'),
     dict(slug='sabran1633', label='Louis XIII&ndash;Sabran cipher 1631&ndash;35', year='1631&ndash;1635', y=1631.24, place='Dijon and Genoa &rarr; Paris', st='partial', stt='read in part',
          title='The Louis XIII&ndash;Sabran cipher, 1631&ndash;1635',
          blurb='Louis XIII&rsquo;s letter of 1631 to his resident at Genoa and the cipher passages of Melchior de Sabran&rsquo;s letter-books of 1633 and 1635 (BnF Baluze 155, fr. 4134, fr. 4135) share one cipher. George Lasry recovered its key with CTTS in 2022 and in 2026 deciphered 18 letters from 43 images: the Prince of Monaco, a plot to seize Savona for Savoy, Genoa in the war of 1635. One code and seven listed leaves are open.',
@@ -433,6 +438,11 @@ PAGES = [
          blurb='Two ciphered despatches of 1632 from the Francia 346 dossier (DECODE R75, R84) that George Lasry, who reconstructed the dossier&rsquo;s key in 2020, had not deciphered. His variable-length key was applied, with a language model choosing among divisions of the unseparated digit stream; the result agrees with R75&rsquo;s partial 1632 interlinear decipherment on 77.5% of letters. Six nomenclator values were added; 117 elements stay open.',
          quote='&ldquo;&hellip;conseguenze che tengano disunita per un lungo pezzo la Francia, e sotto giogo alle esterne violenze, o almeno impotente a soccorrer li suoi alleati.&rdquo;',
          rights='Manuscript rights: Archivio Apostolico Vaticano, via DECODE'),
+    dict(slug='genes1643', label='Eraso to Philip IV 1643', year='1643', y=1643.05, place='Genoa &rarr; Madrid', st='solved', stt='read',
+         title='Juan de Eraso to Philip IV, Genoa, 18 January 1643',
+         blurb='A short cipher letter of Spain&rsquo;s ambassador at Genoa (AGS Estado leg. 3598 no. 44) whose plain original is not online. Brice Dudout learned the 1643 table on other letters of the bundle and tested it on a held-out pair (0.881 of characters, 0.834 of words; a first test fell below the criterion and is reported), then read 135 of 137 words. The Grand Duke of Tuscany answers the request for troops by referring it to his resident in Madrid, which Eraso calls a way of gaining time. Contributed by Brice Dudout.',
+         quote='&ldquo;gozar&aacute; del beneficio del tiempo&rdquo;',
+         rights='Archivo General de Simancas (PARES); text and translation: Brice Dudout, CC BY 4.0'),
     dict(slug='albornoz1648', label='Philip IV to Albornoz 1648', year='1648', y=1648.56, place='Madrid &rarr; Rome (Cardinal Albornoz)', st='solved', stt='read',
          title='Philip IV to Cardinal Albornoz, Madrid, 24 July 1648',
          blurb='Two copies of a royal letter to the ambassador in Rome in a syllabic cipher, with no decipherment filed with them (AHNOB Osuna, OSUNA,CT.2,D.32). Brice Dudout found the same cipher in a 1649 chapter of Luis de Haro enciphered for Albornoz whose plain copy was kept, rebuilt the key from it and tested it on held-out lines; the royal cipher of 1644&ndash;45, rebuilt from two other letters of the fonds, does not fit. 353 of the 359 groups give their value. The King insists that the nuncio at Madrid, Giulio Rospigliosi, the future Clement IX, be kept at his post. Contributed by Brice Dudout.',
@@ -622,6 +632,12 @@ PAGES = [
          title='Fra Giovanni di Lucca to Ferdinand III, 1644',
          blurb='A 231-figure Italian cipher paragraph in a friar&rsquo;s letter to the Emperor (DECODE R2159), a substitution with two figures for each vowel. The key was recovered using the opening words Tomokiyo had published as a crib, and every figure was decrypted; checked against the manuscript, the apparent polyphony turned out to be ten misread 4s and three encipherment slips. The Grand Hetman Koniecpolski offers to keep the Turk from R&aacute;k&oacute;czi, raise Moldavia against him and give two thousand Cossacks.',
          quote='&ldquo;il principe di Bogdania, et li dar&ograve; dumilia Cosachi &hellip; che non faccia pace fin che non l&rsquo;habbi humiliato o vinto&rdquo;'),
+    dict(slug='asang1662', label='Anonymous letter, Sanguszko archive 1662', year='1662', y=1662.58, place='Poland (Royal Prussia?)', st='solved', stt='read',
+         title='Anonymous letter in the Sanguszko archive, 31 July 1662',
+         blurb='An unsigned Polish letter written wholly in a substitution of 23 composite sign groups, with no key and no contemporary decipherment (Archiwum Narodowe w Krakowie, Archiwum Sanguszk&oacute;w 134/8; DECODE R7513). Brice Dudout broke it from the ciphertext of the front, froze the key, tested it on the held-out reverse, and read all 71 words: the Swedes are arming and have ordered prayers and a fast for the third time.',
+         quote='&ldquo;Co nieomylnie iest znakiem, ze woyne meditantur&rdquo;',
+         author='Brice Dudout',
+         rights='Archiwum Narodowe w Krakowie, Archiwum Sanguszk&oacute;w 134/8, via DECODE (restricted; detail shown with credit)'),
     dict(slug='wasowicz1662', label='W&#261;sowicz to Lubomirski 1662&ndash;1663', year='1662&ndash;1663', y=1662.91, place='W&#261;sowicz &rarr; Aleksander Micha&#322; Lubomirski', st='solved', stt='known key applied',
          title='Ludwik W&#261;sowicz to Aleksander Micha&#322; Lubomirski, 1662&ndash;1663',
          blurb='Seven letters from a Mazovian nobleman, the stolnik of &#321;om&#380;a, to the Grand Master of the Horse of the Crown: clear Polish with names and the sentences that matter in two-digit numbers (ANK, AKPot 3227; DECODE R7503&ndash;R7510). Brice Dudout deciphered every cipher passage with the nineteenth-century table filed in the same volume (DECODE R7501), checked blind on the letter of 5 May 1663: 1,561 of 1,587 numbers without doubt, the rest slips or doubtful digits settled by sense. The confederated army at Wolb&oacute;rz waits for its pay, the court strives to keep the agreement with it, and the Marshal, Jerzy Sebastian Lubomirski, is watched two years before his rebellion.',
@@ -1243,6 +1259,11 @@ PAGES = [
          blurb='Four letters to the French ambassador at the imperial court in the Bishop of Rennes&rsquo; cipher, with no contemporary decipherment and none found in print: Catherine&rsquo;s of 31 July 1563 (BnF fr. 3181 f. 55), whose cipher La Ferri&egrave;re printed as an empty bracket, a 1564 order to leave the precedence quarrel, Bourdin&rsquo;s of December 1562 on the leaked marriage overture, and a note to be deciphered by Rennes himself and burned. Tomokiyo&rsquo;s reconstructed key was applied, with each secretary&rsquo;s letter forms fixed on glossed letters in the same hand and a language model choosing among ambiguous values. Between 70% and 83% of each letter is measured as sense, 79% overall.',
          quote='&ldquo;pour le bien de la Chrestient&eacute; et avancer le concile&hellip; laisser l&agrave; quelque secretaire&hellip; soubz couleur d&rsquo;aucuns voz affaires particuliers&rdquo;',
          rights='Manuscript images: Biblioth&egrave;que nationale de France'),
+    dict(slug='biglia1565', label='Biglia, Vienna 1565', year='1565', y=1565.93, place='Vienna &rarr; Rome', st='partial', stt='read in part',
+         title='Melchiorre Biglia, nuncio in Vienna, to Rome, December 1565',
+         blurb='Two letters of the nuncio to Maximilian II survive entirely in a numerical syllabic cipher in the Ambrosiana register Trotti 22, and Dengel&rsquo;s edition prints neither. Brice Dudout rebuilt the key from the ciphertext alone and tested it on a held-out part of the first letter (0.761 against at most 0.500 for 200 control keys). The second letter reads at 95.0%: Biglia answers reproaches for a bad start to the negotiation on the connubio and discusses the offer of 4,000 foot or 2,000 horse. Contributed by Brice Dudout.',
+         quote='&ldquo;le riprensioni che V.S. mi a di qua dato mal principio al negociare&rdquo;',
+         rights='Veneranda Biblioteca Ambrosiana, Trotti 22 (no image reproduced: Universit&agrave; Cattolica, no reuse licence); text and translation: Brice Dudout, CC BY 4.0'),
     dict(slug='charlesixducroc', label='Charles IX to du Croc', year='1565&ndash;67 or 1572', y=1567.5, place='the French court &rarr; Scotland', st='found', stt='already solved',
          title='Charles IX to Philibert du Croc',
          blurb='An undated letter to the French ambassador in Scotland, wholly in a nomenclator of graphic symbols. George Lasry deciphered it; his plaintext overlays, published on Cryptiana in 2022, were compared with the manuscript and transcribed. It gives instructions on James VI&rsquo;s upbringing and marriage and on English encroachment; the catalogue date of 1550 is an error.',
@@ -1369,6 +1390,11 @@ PAGES = [
          blurb='Two intercepted letters of the French command in Spain, kept in Spanish copies at the Archivo Hist&oacute;rico Nacional with the cipher passages left as numbers (Diversos-Colecciones 134, N.34 and N.73). Brice Dudout deciphered them with the French table of the 1812 Grand Chiffre, the British &ldquo;Great Paris Cipher&rdquo;, whose cells he read on Jean-Fran&ccedil;ois Bouchaudy&rsquo;s photographs and froze before Jourdan&rsquo;s letter was decoded: 259 of its 267 numbers, and about 85% of Marmont&rsquo;s, whose copy is faulty. After the fall of Almaraz, Jourdan orders Soult to reinforce d&rsquo;Erlon against Hill or send him over the Tagus at the bridge of the Arzobispo to cover Madrid. Contributed by Brice Dudout.',
          quote='&ldquo;il ne va plus rester dans la vall&eacute;e du Tage que trois bataillons et environ huit cents chevaux de l&rsquo;arm&eacute;e du Centre&rdquo;',
          rights='Manuscript images: Archivo Hist&oacute;rico Nacional (PARES); text and translation: Brice Dudout, CC BY 4.0'),
+    dict(slug='napoleon', label='King Joseph to Napoleon 1812', year='1812', y=1812.97, place='Spain &rarr; Napoleon', st='solved', stt='read',
+         title='King Joseph to Napoleon, December 1812 (catalogued as Berthier, 22 Dec 1812)',
+         blurb='A cryptogram printed in 1969 as a dispatch of Marshal Berthier to Napoleon, 22 December 1812, and listed as unsolved on Cryptiana, is a letter of King Joseph from Spain. Ilia Chirtulov found that the Great Cipher of 1812 reads it; Brice Dudout re-read it independently with the table of the Service historique de la D&eacute;fense, whose cells he read on Jean-Fran&ccedil;ois Bouchaudy&rsquo;s photographs: all 325 printed groups, 233 of 233 words, with a permutation control that none of 1,000 shuffled tables reaches. Joseph has no news of the Emperor and his last courier was seized near Valladolid; he encloses General Reille&rsquo;s dispatch on the Army of the North. The plate ends mid-sentence. Contributed by Brice Dudout.',
+         quote='&ldquo;je n&rsquo;ai aucunes nouvelles de Votre Majest&eacute; depuis son d&eacute;part de Paris&rdquo;',
+         rights='Plate: J. Vilcoq, Revue historique de l&rsquo;Arm&eacute;e 1969 (Archives nationales), via Pers&eacute;e; text and translation: Brice Dudout, CC BY 4.0'),
     dict(slug='poinsett1813', label='Poinsett, Santiago 1813', year='1813', y=1813.14, place='Santiago de Chile', st='stuck', stt='not solved',
          title='Poinsett to Monroe from Santiago, 20 February 1813',
          blurb='Nine coded passages of a US special agent’s despatch from revolutionary Chile, printed by Manning in 1925 as &ldquo;undeciphered cipher&rdquo;: 437 groups of a numbered two-part code. His letter of 14 June 1814 is in the same code and carries a clerk’s decipherment; its 95 values cover 37% of the 1813 groups, but no sentence reads. No other letter in the code was found on the State Department rolls searched.',
@@ -1494,6 +1520,11 @@ PAGES = [
          blurb='Two pages of three-digit code sent to Prince Carl August Friedrich of Waldeck, an Imperial and Dutch general, and dated by his French draft reply on the back to 18 January 1744. The 717 groups belong to a two-part homophonic nomenclator with no surviving key. Tested on synthetic letters of the same size and design, the language model rates wrong keys above the true one, so the letter was not deciphered.',
          quote='879 . 144 . <s>9</s> 7 . 126 &middot; the writer changes a homophone in mid-word',
          rights='Manuscript images: Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954, via Arcinsys Hessen'),
+    dict(slug='champigny1744', label='Champigny to Maurepas 1744', year='1744', y=1744.63, place='Fort-Royal (Martinique) &rarr; Versailles', st='solved', stt='read',
+         title='Champigny to Maurepas: Commodore Knowles&rsquo;s notice to Dominica, 17 August 1744',
+         blurb='The cipher copy of Commodore Knowles&rsquo;s neutrality notice to the inhabitants of Dominica, enclosed by Governor Champigny in a letter whose inventory says part was never deciphered (ANOM, COL C8 A 56 fols. 57&ndash;57v). Brice Dudout rebuilt the Navy code of the Windward Islands from the interlinear glosses of six letters of 1744, froze it and tested it on a seventh (0.894 of characters against 0.578 at most for shuffled keys), and read the notice: 154 of 155 words. Knowles offers protection to those who stay neutral and four louis d&rsquo;or for each deserter returned. Contributed by Brice Dudout.',
+         quote='&ldquo;il promet de donner pour chaque homme d&eacute;sert&eacute; du bord de son escadre 4 louis d&rsquo;or&rdquo;',
+         rights='Text and translation: Brice Dudout, CC BY 4.0; the ANOM images are not reproduced'),
     dict(slug='esterhazy1744', label='Esterh&aacute;zy box 636, 1744', year='1744', y=1744.76, place='Moscow &rarr; &ldquo;Votre Majest&eacute;&rdquo;', st='stuck', stt='key not found',
          title='Esterh&aacute;zy papers, box 636: the cipher letters of 1744',
          blurb='Six digit-cipher documents of 1744 in the Esterh&aacute;zy archive at the Slovak National Archives, one from Maria Theresa, with no decipherment. Only part of one page is online, a despatch from Moscow of 5 October 1744 in a code of about 2,000 values. The Vienna chancery keys of 1740&ndash;1746 on DECODE, the 1745 circular ciphers among them, do not reach its numbers, and the box is not digitised; not solved.',
@@ -2186,6 +2217,11 @@ PAGES = [
          blurb='Three telegrams King Manuel II sent his mother from Bussaco to the Pena palace on 2 and 8 August 1910, two months before the revolution: clear greetings (&ldquo;Querida m&atilde;e &hellip; Tudo bem tempo lindo&rdquo;) around 93 five-figure code items. The telegrams share four groups and an opening run after the same clear words, so they are one code with a stock phrase. Count Sabugosa&rsquo;s code does not fit, and no decode or codebook has been found.',
          quote='&ldquo;Querida m&atilde;e Tudo bem Tempo lindo veio Sabugosa hoje&rdquo; &middot; 4965 37708 89864 97183 39644 06 93608',
          rights='Arquivo Nacional Torre do Tombo, PT/TT/CAM/M13, via DigitArq'),
+    dict(slug='rubio1913', label='Rubio Navarrete 1913&ndash;14', year='1913&ndash;14', y=1914.2, place='Lampazos, Zacatecas &rarr; Mexico City', st='solved', stt='read',
+         title='General Rubio Navarrete&rsquo;s cipher telegrams to the Minister of War, 1913&ndash;1914',
+         blurb='Three draft telegrams of a general of Huerta&rsquo;s federal army to the Minister of War, from Lampazos (18 July 1913) and Zacatecas (13 and 18 March 1914), in the numerical Clave n&uacute;m. 109 whose printed key sheet is filed with them (CEHM-Carso, fondo DLXXIII). Brice Dudout checked the sheet on a contemporary pencil pair (1.000 of words against 0.111 for permuted tables) and read the cipher passages, 67 words: the Laredo garrison courted by the Carrancistas, an old general at San Antonio in touch with revolutionaries, and a railway to Torre&oacute;n the rebels are destroying. The fonds&rsquo; other &ldquo;en clave&rdquo; pieces use other tables and stay unread. Contributed by Brice Dudout.',
+         quote='&ldquo;urge sobemanera el envia de fuerzas a esta plza&rdquo; &middot; 2-86-74-37-147-34-46-60-149',
+         rights='Manuscript image: CEHM-Carso (Fundaci&oacute;n Carlos Slim), public viewer; text and translation: Brice Dudout, CC BY 4.0'),
     dict(slug='sunyatsen', label='Sun Yat-sen', year='1916', y=1916, place='Swatow &rarr; Tokyo', st='solved', stt='solved',
          title='The Swatow telegram to Sun Yat-sen, 1916',
          blurb='A telegram intercepted by the Japanese Foreign Ministry, in the Chinese telegraph code through a letter condenser. The condenser table was recovered from the ciphertext alone by testing every table of the systematic family known from Yamada&rsquo;s condensers. 41 of about 44 characters are decoded; they report Mo Qingyu&rsquo;s rising at Chaozhou.',
@@ -2218,6 +2254,11 @@ PAGES = [
          title='Twenty-two garbled ADFGVX messages of November 1918',
          blurb='German radio messages from the Eastern Front on Schmeh&rsquo;s list of ADFGVX messages that would not decrypt. The keys were published in 2017; the messages fail because letters were lost in transmission. The known keys were applied with a search for up to two garbled blocks: nine messages decrypt (as in the 2017 comment thread), three in part, and ten give nothing under any of the fifteen keys.',
          quote='9 solved &middot; 3 partial &middot; 10 open &middot; best open score &minus;6.9 against &minus;4.4 to &minus;6.0 solved'),
+    dict(slug='tokyo1932', label='Tokyo reads the State Department 1932', year='1932', y=1932.4, place='China, Tokyo &rarr; Washington (intercepted in Japan)', st='partial', stt='read in part',
+         title='Tokyo reads the State Department, 1932 (Japanese Navy copies of American telegrams)',
+         blurb='Sixteen bundles of the Japanese Navy Minister&rsquo;s records for 1932 hold about 850 intercepted American telegrams, copied as the clear text the Navy&rsquo;s cryptanalysts had recovered, with no cipher groups (JACAR C05022467800&ndash;C05022469300). Brice Dudout inventoried them, transcribed eight bundles and compared 53 State Department telegrams with FRUS: about 77% of the words recovered, 45&ndash;95% by telegram, and the confidential passages not read. The wrong words are alphabetical neighbours of the true ones (63 of 137 share the initial against 6.3% for shuffled controls), which fits a one-part code and is compatible with the Gray code. Contributed by Brice Dudout.',
+         quote='&ldquo;what follows: code not deciphered&rdquo; &middot; about 77% of the words of 53 telegrams recovered',
+         rights='American texts: FRUS (US government); JACAR images not reproduced (all rights reserved); notes and tests: Brice Dudout, CC BY 4.0'),
     dict(slug='goldbar', label='Gold bars', year='1933', y=1933, place='Shanghai', st='found', stt='no message',
          title='The Chinese gold bar cryptograms, Shanghai 1933',
          blurb='Sixteen Latin-letter strings stamped on seven bars said to certify $300,000,000. They contain almost exactly ten of every letter: chi-squared 1.25 against uniform where random sampling predicts 25, a flatness no encryption of a natural-language text can produce. Not a cipher: the letters were counted out by hand and there is no message.',
@@ -2228,6 +2269,11 @@ PAGES = [
          blurb='Three lines of digits above a threat to the President, reproduced by Friedman. Transcribed glyph by glyph, they are a permutation of 1 to 52 with groups of zeros, as Ernst noted in 2017; the order has the statistics of a hand-written list (sixteen rising chains where a shuffle gives 26). Not a cipher: the ordered-key interpretations that can be tested fail while matched controls are recovered.',
          quote='16 rising chains against 26 &middot; rank correlation +0.39 &middot; every value once',
          rights='Figure from The Friedman Legacy, NSA 1992, via the Internet Archive'),
+    dict(slug='moscowmeteo1940', label='Soviet weather ciphers 1940', year='1938&ndash;40', y=1940.5, place='Moscow &rarr; intercepted in Japan', st='solved', stt='read',
+         title='Soviet weather ciphers read in Tokyo, 1938&ndash;1940',
+         blurb='Twelve top-secret reports of the Japanese Army Meteorological Department announce each Soviet change of key in the enciphered weather broadcasts and give the method to read it. Brice Dudout transcribed the method passages, the four Moscow tables of June 1940 (4,796 figures) and two October grids: the eleven rows of each table are one 109-figure cycle, shifted, and the key stream drawn from the transcribed table equals the one printed in the report; the worked example deciphers, 60 of 60 figures. Contributed by Brice Dudout.',
+         quote='4,793 of 4,796 table figures certain &middot; worked example 60 of 60',
+         rights='JACAR images not reproduced (all rights reserved); transcriptions and tests: Brice Dudout, CC BY 4.0'),
     dict(slug='ormanetto1573', label='Ormanetto 1573', year='1573', y=1573.4, place='Madrid &rarr; Rome', st='partial', stt='read in part',
          title='Philip II to the nuncio Ormanetto, 1573',
          blurb='DECODE R116 is the nuncio&rsquo;s copy, for the Cardinal of Como, of a letter from Philip II with two passages in figures. They read, in Italian, with the Spain nunciature&rsquo;s ordinary cipher as reconstructed by Ajaydas Devadas and checked here against our own transcription, re-read against the full-resolution scans: the King on joining the Pope&rsquo;s league with the Emperor, and on the affairs of Pitigliano. 1,298 of 1,324 cipher tokens (98.0%) read as sense; six single-context code groups stay open.',
@@ -2253,6 +2299,12 @@ PAGES = [
          blurb='Four letters of October&ndash;December 1577 from Guillaume Ancel, French resident at the Imperial court, carry cipher passages with no contemporary decipherment (BnF Cinq Cents de Colbert 398). Harumi-Matsuba transcribed them with AI and applied Satoshi Tomokiyo&rsquo;s reconstructed Vulcob&ndash;Ancel key; the text reports Matthias&rsquo;s flight to the Low Countries and the Emperor&rsquo;s double game with Spain. Measured here: 98.4% of tokens take a value and the decode scores as French; three lines agree with the images, but no person has checked the whole transcription.',
          quote='&ldquo;&hellip;a peine pouvoit il faire un pas hors de sa chambre sans le cong&eacute; d&rsquo;iceluy seigneur [l&rsquo;Empereur] son frere&rdquo; &middot; p. 525',
          rights='Biblioth&egrave;que nationale de France, Cinq Cents de Colbert 398, via Gallica'),
+    dict(slug='perez1578', label='Antonio P&eacute;rez to Don John of Austria 1578', year='1578', y=1578.63, place='Madrid &rarr; Netherlands', st='solved', stt='read',
+         title='Antonio P&eacute;rez to Don John of Austria, Madrid, 19 August 1578',
+         blurb='An autograph letter of Philip II&rsquo;s Secretary of State to his half-brother in the Netherlands, with four cipher passages (RAH, Fern&aacute;ndez San Rom&aacute;n collection). Brice Dudout recognised the numerical syllabary of the Spanish chancery of 1577, adapted the key of the Genoa embassy to P&eacute;rez&rsquo;s variant, tested it on a fresh cipher and decipherment pair, and read 69 of the 70 cipher words: the Council of Finance has &ldquo;not a single real&rdquo;.',
+         quote='&ldquo;por no aver un real y tantas cosas que proveer&rdquo;',
+         author='Brice Dudout',
+         rights='Real Academia de la Historia, Biblioteca Digital (Public Domain Mark 1.0)'),
     dict(slug='bl32305', label='Paris 1719', year='1719', y=1719.1, place='Paris &rarr; England', st='stuck', stt='two-part code, too short',
          title='Paris 1719 code letters, BL Add MS 32305',
          blurb='Two letters from Paris of 7 and 10 February 1719, clear French with runs of a three-figure code, kept in an English codebreaker&rsquo;s file of intercepts. The decipherer of the time glossed about a dozen common values; they are not in alphabetical order, so the code is two-part, and the rest cannot be recovered from this little ciphertext. Not solved.',
@@ -2529,6 +2581,12 @@ PAGES = [
          blurb='Confidential warnings and cavalry arrangements: horses, payments, dispatches and service in war. The Français 4698 fragment contains a request for an appeal or intercession; most of that letter remains unread. The Paris letter of 16 February1590 discusses friendship, the King of Spain and a request; its substantial gaps remain unread.',
          quote='giudico ? il aiutarle. Quanto poi a la persona sva egli si ?ferisce prontisimo a servirla',
          author='George Lasry'),
+    dict(slug='sega1590', label='Filippo Sega, Paris 1590&ndash;91', year='1590&ndash;1591', y=1590.9, place='Paris &rarr; Rome', st='solved', stt='known key applied',
+         title='Filippo Sega to Rome, Paris, 26 November 1590 and 16 January 1591',
+         blurb='Two letters of the nuncio Filippo Sega, Bishop of Piacenza, from Paris in the months after the siege was lifted (AAV, Segreteria di Stato, Francia 32 ff. 17r-v and 71r-v). Brice Dudout applied Meister&rsquo;s key no. 65, which George Lasry had identified for Sega&rsquo;s letter of 9 January 1591, unchanged, tested it on a letter whose contemporary decipherment survives, and read 134 of the 136 cipher words.',
+         quote='&ldquo;anderò temporeggiando il più che potrò&rdquo;',
+         author='Brice Dudout',
+         rights='Archivio Apostolico Vaticano, Segreteria di Stato, Francia 32, via DECODE (restricted; detail shown with credit)'),
     dict(slug='sega1591', label='Filippo Sega to Cardinal Caetano, 9&hellip;', year='1591', y=1591.0, place='BnF Français 3613', st='solved', stt='read',
          title='Filippo Sega to Cardinal Caetano, 9 January 1591',
          blurb='A religious book, Navarre at Christmas Mass, and plans for an undertaking at Tours.',
@@ -3950,6 +4008,9 @@ IMAGES['dugard1656'] = ('dugard1656_tsp5_p79.jpg', 'The new direction, in figure
 IMAGES['copinger1656'] = ('copinger1656_tsp5_p267.jpg', 'The cipher sentence: a name of twelve digits and a word of four', 'Thomas Birch, A Collection of the State Papers of John Thurloe (1742), vol. 5 p. 267, via the Internet Archive')
 IMAGES['vico1398'] = None
 IMAGES['santacruz1399'] = None
+IMAGES['biglia1565'] = None
+IMAGES['genes1643'] = None
+IMAGES['santacruz1630'] = None
 IMAGES['jafet1400'] = None
 IMAGES['exea1408'] = None
 IMAGES['comuel1415'] = None
@@ -3966,8 +4027,16 @@ IMAGES['lopehurtado1520'] = None
 IMAGES['ferducci1532'] = None
 IMAGES['huyson1547'] = None
 IMAGES['wasowicz1662'] = None
+IMAGES['tokyo1932'] = None
+IMAGES['moscowmeteo1940'] = None
+IMAGES['asang1662'] = ('asang1662_cipher.jpg', 'The first lines of the front: groups of three or four strokes, no word division', 'Archiwum Narodowe w Krakowie, Archiwum Sanguszk&oacute;w 134/8 (front), via DECODE R7513')
+IMAGES['sega1590'] = ('sega1590_cipher.jpg', 'The enciphered passage on f. 17r: digit pairs with vowel signs', 'Archivio Apostolico Vaticano, Segreteria di Stato, Francia 32 f. 17r, via DECODE R5612')
+IMAGES['perez1578'] = ('perez1578_cipher.jpg', 'The second cipher passage on image 2: numbers with marks and superscripts', 'Real Academia de la Historia, 2/Ms Caja 8 no. 4, image 2, via the RAH Biblioteca Digital')
 IMAGES['stade1710'] = ('stade1710_f85r.jpg', 'Fol. 85r, the copy for the envoys: the account of the Danish defeat in clear, then the letter&rsquo;s number groups', 'Nieders&auml;chsisches Landesarchiv, Abt. Stade, Rep. 5a Nr. 670 fol. 85r (image 0086), via Archivportal-D')
 IMAGES['vilaflor1663'] = ('vilaflor1663_26may.jpg', 'The letter of 26 May 1663: the greeting in clear, then the order to relieve &Eacute;vora in cipher', 'Arquivo Nacional Torre do Tombo, Lu&iacute;s de Miranda Pereira liv. 2 (PT/TT/LMP/0002), image m0037, via DigitArq')
 IMAGES['albornoz1648'] = ('albornoz1648_copyb.jpg', 'Copy B (image 5): the clear opening, sixteen lines of syllables and numbers, and the clear closing', 'Archivo Hist&oacute;rico de la Nobleza, OSUNA,CT.2,D.32 image 5 (copy B), via PARES (the copy published by Brice Dudout, Europe chiffr&eacute;e)')
+IMAGES['champigny1744'] = None
+IMAGES['rubio1913'] = ('rubio1913_telegram.jpg', 'Rubio&rsquo;s telegram of 18 March 1914: the plain words &ldquo;con toda atenci&oacute;n que&rdquo; and the first runs of numbers', 'Centro de Estudios de Historia de M&eacute;xico (CEHM-Carso), fondo DLXXIII, DLXXIII.2.41.13-41 image 1, via the CEHM public viewer (crop; the viewer&rsquo;s watermark is partly visible)')
 IMAGES['portstemarie1729'] = ('portstemarie1729_lead.jpg', 'mssBLA 191 p. 5: the head of the coded report, no gloss', 'Huntington Library, William Blathwayt papers addenda, mssBLA 191 p. 5, via the Huntington Digital Library')
+IMAGES['napoleon'] = ('napoleon_plate.jpg', 'Page 3 of the dispatch: the archivist&rsquo;s notes, the salutation &ldquo;Sire,&rdquo; and the first lines of the cipher', 'J. Vilcoq, Revue historique de l&rsquo;Arm&eacute;e 1969 no. 4, plate after p. 24 (Archives nationales), via Pers&eacute;e')
 IMAGES['marmont1812'] = ('marmont1812_n34.jpg', 'Jourdan&rsquo;s letter in the Spanish copy: the cipher passages left as numbers between the translated clear text', 'Archivo Hist&oacute;rico Nacional, DIVERSOS-COLECCIONES,134,N.34 image 2, via PARES (the copy published by Brice Dudout, Europe chiffr&eacute;e)')

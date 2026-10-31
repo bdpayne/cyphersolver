@@ -160,7 +160,11 @@
     "doc": "jacar-c05022467800-c05022469300",
     "label": "米特情 copies, bundles (1)-(8), Jan-Apr 1932",
     "transcription_missing": "No cipher groups survive: the Japanese copied only the clear text they had recovered.",
-    "contemporary": [
+    "language": "en",
+    "state": "read in part",
+    "note": "The decryption is the Japanese Navy's own recovered clear text of 1932, transcribed from the JACAR copies (no cipher groups were copied, so there is no cipher transcription); compared with FRUS in frus_pairs.md and gaps/. Bundles (1)-(8) only; bundles (9)-(16) are inventoried. Working notes in French.",
+    "summary": "US Navy Asiatic Fleet traffic and State Department telegrams on the Shanghai fighting, the League of Nations (Lytton) inquiry and Manchukuo, as read in Tokyo.",
+    "decryption": [
      "transcriptions/C05022467800.md",
      "transcriptions/C05022467900.md",
      "transcriptions/C05022468000.md",
@@ -170,10 +174,12 @@
      "transcriptions/C05022468400.md",
      "transcriptions/C05022468500.md"
     ],
-    "language": "en",
-    "state": "read in part",
-    "note": "The Japanese decipherment of 1932, transcribed; compared with FRUS in frus_pairs.md and gaps/. Working notes in French.",
-    "summary": "US Navy Asiatic Fleet traffic and State Department telegrams on the Shanghai fighting, the League of Nations (Lytton) inquiry and Manchukuo, as read in Tokyo."
+    "reading_review": {
+     "grade": "B",
+     "by": "Claude Sonnet 5.5 (write-up check)",
+     "date": "2026-10-30",
+     "note": "Sample read: bundle 3 (C05022468000) images 01-02 and the comparison table frus_pairs.md. The copies are English telegrams with blanks and truncations, which read as sentences where the Japanese office recovered the words (rates 45-95 % by telegram, about 77 % on average per Brice Dudout's measure) and break at the unread passages; not read in full by the reviewer. Grade B: coherent but raw."
+    }
    }
   ],
   "provenance": "contributed"

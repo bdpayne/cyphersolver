@@ -138,7 +138,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "transcription, key reconstructed from ciphertext and validated on a held-out part, letter 2 read and translated",
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "source": "Brice Dudout, email of 29 Oct 2026 (branch dudout/bundle-spain-italy, merged 30 Oct 2026)"
    }
   ],
   "texts": [
@@ -151,10 +152,27 @@
     "translation": "translation.md",
     "language": "it",
     "state": "read",
-    "summary": "Biglia answers reproaches for a bad start to the negotiation that offended the Emperor; the offer of 4,000 foot or 2,000 horse; a person of the Emperor's blood as their head; Zasius and Weber of the privy council dine with him and speak of the connubio."
+    "summary": "Biglia answers reproaches for a bad start to the negotiation that offended the Emperor; the offer of 4,000 foot or 2,000 horse; a person of the Emperor's blood as their head; Zasius and Weber of the privy council dine with him and speak of the connubio.",
+    "read_share": 0.95,
+    "reading_review": {
+     "grade": "B",
+     "by": "Claude Sonnet 5.5 (write-up review)",
+     "date": "2026-10-30",
+     "note": "reading.md and translation.md read as sentences: the opening (the reproofs received, the bad start of the negotiation, the Emperor offended), the offer of 4,000 foot or 2,000 horse with a person of the Emperor's blood at their head, and the visit of Doctors Zasius and Weber on the connubio all build; the holes (19 words of 381) fall inside two or three sentences, and many words are probable {x} readings, so the text is coherent but raw (grade B). The 95.0% sits exactly on the bar."
+    }
    }
   ],
   "key_file": "key.tsv",
-  "provenance": "contributed"
+  "provenance": "contributed",
+  "gaps": [
+   {
+    "item": "19 unresolved words of letter 2 (7r l. 38-41 and 7v ll. 10-23), each in a sentence otherwise read",
+    "blocker": "no-key-material"
+   },
+   {
+    "item": "letter 1 (fols 6v-7r l. 27; 729 words, 94.5% read, 40 unresolved): the contributor has not published its text, so it is not shown here",
+    "blocker": "no-key-material"
+   }
+  ]
  }
 }

@@ -112,9 +112,49 @@
    ],
    "what": "Whole letter read; two single-occurrence groups of the reverse valued from the sense (u, f).",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-30",
+   "kind": "verification",
+   "technique": [
+    "statistical test",
+    "language-model scoring"
+   ],
+   "what": "Statistical validation (docs/_validate.py): 320 tokens, 24 types, pl-1790 order 4: reading -2.575 per letter; random keys -5.447 (z 10.1); key annealed onto shuffled ciphertext best -3.785 (mean -3.887, z 13.3); annealer on the real text -2.865. Verdict: pass.",
+   "result": "worked"
   }
  ],
  "outcome": {
+  "validation": {
+   "date": "2026-10-30",
+   "model": "pl-1790",
+   "file": "validation.tsv",
+   "tokens": 320,
+   "types": 24,
+   "tokens_per_type": 13.33,
+   "score": -2.575,
+   "nulls": {
+    "random keys": {
+     "n": 200,
+     "mean": -5.447,
+     "sd": 0.285,
+     "max": -4.725,
+     "z": 10.1,
+     "p": 0.005
+    },
+    "shuffled refit": {
+     "n": 6,
+     "mean": -3.887,
+     "sd": 0.099,
+     "max": -3.785,
+     "z": 13.3,
+     "p": 0.1429
+    }
+   },
+   "power": -2.865,
+   "verdict": "pass",
+   "notes": "claimed per-occurrence score -2.575; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached -2.865"
+  },
   "class": "read",
   "key": "recovered",
   "method": "key recovered from ciphertext-only",
@@ -129,14 +169,16 @@
   "first_break": true,
   "verification": [
    "key confirms",
-   "historical consistency"
+   "historical consistency",
+   "statistical test"
   ],
   "credits": [
    {
     "who": "dudout",
     "role": "solution",
     "note": "ciphertext-only break of the front, validation on the held-out reverse, full reading, English translation",
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "source": "email from Brice Dudout to Daniel Bourdeau, 29 Oct 2026; merged from the Dudout bundle (dudout/bundle-ne-colonies), 30 Oct 2026"
    }
   ],
   "texts": [
@@ -149,7 +191,13 @@
     "translation": "translation.md",
     "language": "pl",
     "state": "read",
-    "summary": "News from Riga and Hamburg that the Swedes are arming and have ordered prayers and a fast for the third time, a sure sign of war; advice not to leave the side towards the sea bare, since it is far from Lwów to Gdańsk; the Elector will surely come in August."
+    "summary": "News from Riga and Hamburg that the Swedes are arming and have ordered prayers and a fast for the third time, a sure sign of war; advice not to leave the side towards the sea bare, since it is far from Lwów to Gdańsk; the Elector will surely come in August.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as sentences from Brice Dudout's reading.md and translation.md (not re-deciphered, not re-checked against the images): three coherent Polish sentences in the spelling of the cipher, with one probable word and one restored letter; the English translation follows the Polish."
+    }
    }
   ],
   "key_file": "key.tsv",

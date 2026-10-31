@@ -35787,15 +35787,16 @@
    "language": "Spanish",
    "region": "Americas",
    "period": "1901-1950",
-   "shelfmark": "CEHM-Carso, Fondo DLXXIII (Manuscritos del General Guillermo Rubio Navarrete), DLXXIII.1.29.11-30, 1.29.12-30, 1.30.5-49, 1.30.15-49 (clave núm. 10, Lampazos 10 Jul 1913), 1.30.16-49, 1.30.17-49 (transcribes in cipher an order of President Huerta, 19 Jul 1913), 1.30.27-49, 1.31.29-30, 1.32.3-41, 1.32.5-41, 1.32.6-41, 1.32.21-41, 2.41.1-41, 2.41.9-41, 2.41.13-41, 2.41.17-41, 2.41.18-41, 2.41.19-41, 2.41.22-41, 2.41.23-41; 2.41.39-41 to 41-41 (Jan 1918)",
+   "shelfmark": "CEHM-Carso, Fondo DLXXIII (Manuscritos del General Guillermo Rubio Navarrete), DLXXIII.1.29.11-30, 1.29.12-30, 1.30.5-49, 1.30.15-49 (clave núm. 10, Lampazos 10 Jul 1913), 1.30.17-49 (transcribes in cipher an order of President Huerta, 19 Jul 1913), 1.30.27-49, 1.31.29-30, 1.32.3-41, 1.32.5-41, 1.32.6-41, 1.32.21-41, 2.41.1-41, 2.41.17-41, 2.41.18-41, 2.41.19-41, 2.41.22-41, 2.41.23-41; 2.41.39-41 to 41-41 (Jan 1918)",
    "folio_note": "About 20 telegrams and letters recorded only as \"EN CLAVE\" (some incomplete); the same legajos hold the keys: DLXXIII.1.28.8-23 (alphabet and syllables), 1.28.14-23 (\"Clave núm. 109, Secretaría de Guerra y Marina\", military vocabulary), 1.29.15-30 (alphabets, syllables and numbers, Zacatecas)",
    "cls": "A",
-   "status": "CEHM: \"EN CLAVE\", no translation; a few siblings carry summaries (1.29.9-30, 2.41.18-41: railway repaired to Gutiérrez north of Fresnillo). Key sheets of the Secretaría de Guerra filed with them.",
+   "status": "CEHM: \"EN CLAVE\", no translation; a few siblings carry summaries (1.29.9-30, 2.41.18-41: railway repaired to Gutiérrez north of Fresnillo). Key sheets of the Secretaría de Guerra filed with them. Narrowed 30 Oct 2026: three telegrams in Clave núm. 109 (1.30.16-49, 2.41.9-41, 2.41.13-41) were read by Brice Dudout (write-up rubio1913); the other pieces use other tables and are unread.",
    "why": "Federal army operations against Pablo González and Carranza in the Northeast (Lampazos, Candela, Cañón de Sabinas, Nov 1913) and the defence of Zacatecas before June 1914; Huerta-side cipher is rarely seen.",
    "importance": 3,
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Scored from the CEHM online catalogue record during the Oct 2026 Mexico sweep (research/latam_mexico/); not viewed",
+   "outcome": "attempted, open",
    "verify": "View the key sheets (1.28.8-23, 1.28.14-23, 1.29.15-30) and one telegram (1.30.17-49) at CEHM.",
    "links": [
     {

@@ -1185,6 +1185,12 @@
     "harrison-bornstein"
    ],
    "note": "Directed Claude Code on catalogue 885 (ibrahim1548, PR #196: the Malvezzi key as the candidate) and on DL 46150 (buda1490, PR #199)."
+  },
+  {
+   "id": "chirtulov",
+   "name": "Ilia Chirtulov",
+   "kind": "person",
+   "note": "First to find (reported to S. Tomokiyo, 4 Oct 2026, and on Cryptiana on 12 Oct 2026) that the Great Cipher of 1812 reads the cryptogram catalogued as Berthier to Napoleon, 22 Dec 1812, and that its writer is King Joseph (napoleon)."
   }
  ]
 }

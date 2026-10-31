@@ -180,7 +180,8 @@
     "who": "dudout",
     "role": "new cipher with solution",
     "note": "letter of 26 Nov 1590 transcribed and read with Meister key 65 (identified for Sega by George Lasry); held-out validation on the decifrato of 21 Dec 1590; letter of 16 Jan 1591 (f. 71r-v) read; English translation",
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "source": "email from Brice Dudout to Daniel Bourdeau, 29 Oct 2026; merged from branch dudout/bundle-spain-italy, 30 Oct 2026"
    }
   ],
   "texts": [
@@ -193,7 +194,13 @@
     "translation": "translation.md",
     "language": "it",
     "state": "read",
-    "summary": "Sega reports the bishop's bad nature and leaning to the opposite party, out of limping religion rather than politics, and says he will temporise, showing feelings for and against him while stirring the parties to tell all they know."
+    "summary": "Sega reports the bishop's bad nature and leaning to the opposite party, out of limping religion rather than politics, and says he will temporise, showing feelings for and against him while stirring the parties to tell all they know.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as sentences from Brice Dudout's reading.md and translation.md (not re-deciphered, not re-checked against the images): one coherent Italian sentence with two marked holes in the last clause; the final enciphered clause is left unresolved and untranslated."
+    }
    },
    {
     "doc": "aav-francia32-f71",
@@ -204,7 +211,13 @@
     "translation": "translation.md",
     "language": "it",
     "state": "read",
-    "summary": "Sega on Mayenne writing something good for him to Rome, the protection of the Duke of Bavaria, the long-awaited \"pomo\", and a cause misrepresented by both sides."
+    "summary": "Sega on Mayenne writing something good for him to Rome, the protection of the Duke of Bavaria, the long-awaited \"pomo\", and a cause misrepresented by both sides.",
+    "reading_review": {
+     "grade": "B",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as sentences from reading.md and translation.md (not re-deciphered): the enciphered words are set inside the clear text of the letter and read coherently, but the text is abridged and the translation is in fragments."
+    }
    }
   ],
   "key_file": "key.tsv",

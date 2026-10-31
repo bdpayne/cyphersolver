@@ -124,10 +124,10 @@
    "result": "worked"
   }
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-30", "verdict": "not applicable", "notes": "validated by the contributor on a held-out glossed letter (ANOM COL C8 A 56 fol. 79: 0.894 of characters, shuffled keys at most 0.578; see NOTES Validation); no token-aligned pairs file was contributed"}, 
   "class": "read",
   "key": "recovered",
-  "method": "read with known key",
+  "method": "key recovered based on adjacent plaintext",
   "method_basis": "Key rebuilt from contemporary glosses of sibling letters of the same year and code, validated on a held-out glossed letter.",
   "contribution": [
    "transcription",
@@ -146,7 +146,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "key rebuilt from 1744 glosses, validated on a held-out letter; enclosure read, English translation",
-    "date": "2026-10-28"
+    "date": "2026-10-28",
+    "source": "email of 28 Oct 2026 and branch dudout/bundle-north-east-colonies; https://bdudout.github.io/europe-chiffree/en/documents.html#champigny-1744"
    }
   ],
   "texts": [
@@ -159,7 +160,13 @@
     "translation": "translation.md",
     "language": "fr",
     "state": "read",
-    "summary": "Protection for inhabitants who stay neutral; four louis d'or per deserter returned; those who hide deserters will be treated as enemies."
+    "summary": "Protection for inhabitants who stay neutral; four louis d'or per deserter returned; those who hide deserters will be treated as enemies.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as French sentences: three long sentences build in the established text (neutrality offered, deserters to be returned for four louis d'or, treatment as enemies otherwise); 13 of 15 sentences clean in reading.md. Holes: the unresolved group 320 (agissent/obeissent) and the marked restorations."
+    }
    }
   ],
   "key_file": "key.tsv",

@@ -144,7 +144,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "code table rebuilt from sister glosses, validated on a held-out piece; sheet read, English translation",
-    "date": "2026-10-28"
+    "date": "2026-10-28",
+    "source": "email of 28 Oct 2026 and branch dudout/bundle-north-east-colonies; https://bdudout.github.io/europe-chiffree/en/documents.html#blathwayt-1729"
    }
   ],
   "texts": [
@@ -157,7 +158,13 @@
     "translation": "translation.md",
     "language": "fr",
     "state": "read",
-    "summary": "The informer thanks Milord, complains that Mr Keene does not like him nor thank him for past services, and asks for orders for his conduct during the accommodation."
+    "summary": "The informer thanks Milord, complains that Mr Keene does not like him nor thank him for past services, and asks for orders for his conduct during the accommodation.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as French sentences and translated: a letter to Milord thanking him, complaining of Mr Keene and asking for orders; three unresolved holes (214, se<711>s, <pr>es) marked in the text and the 17 probable words are placed by the code book's alphabetical order. 12 of 17 sentences clean by the scorer, which counts the marked words as holes."
+    }
    }
   ],
   "key_file": "key.tsv",

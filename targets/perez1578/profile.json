@@ -152,7 +152,8 @@
     "who": "dudout",
     "role": "solution",
     "note": "system identified, key adapted and validated on a fresh AGS pair, four passages read, English translation",
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "source": "email from Brice Dudout to Daniel Bourdeau, 29 Oct 2026; merged from branch dudout/bundle-spain-italy, 30 Oct 2026"
    }
   ],
   "texts": [
@@ -165,7 +166,13 @@
     "translation": "translation.md",
     "language": "es",
     "state": "read",
-    "summary": "The Council of Finance has \"not a single real\"; supplying what is needed is impossible; the asiento was accepted under protest that no other will be honoured."
+    "summary": "The Council of Finance has \"not a single real\"; supplying what is needed is impossible; the asiento was accepted under protest that no other will be honoured.",
+    "reading_review": {
+     "grade": "A",
+     "by": "Claude Sonnet 5.5",
+     "date": "2026-10-30",
+     "note": "Read as sentences from Brice Dudout's reading.md and translation.md (not re-deciphered, not re-checked against the images): three of the four passages build Spanish sentences once Perez's clear text is added; one word (ningun) is left unresolved and one verb (estragar) is uncertain in sense."
+    }
    }
   ],
   "key_file": "key.tsv",

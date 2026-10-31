@@ -1,5 +1,6 @@
 # Blathwayt 1729: intelligence report from Port Sainte-Marie, summer 1729 (catalogue 826; notes on 827 and 828)
 
+Status: no write-up (duplicate of docs/portstemarie1729.html, the existing page for the same sheet; Brice Dudout's fuller reading, 105 of 108 words, is not yet folded into it; decision pending, 30 Oct 2026)
 Status: read (Brice Dudout, 28 Oct 2026; 105 of 108 words read in their sense, 88 certain, 17 probable, 3 unresolved; Daniel Bourdeau's 95% rule).
 
 Contributed by Brice Dudout (Europe chiffrée), 28 Oct 2026. Published write-up (local, to be pushed when the GitHub account is restored):
