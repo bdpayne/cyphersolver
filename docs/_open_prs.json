@@ -20,20 +20,8 @@
   },
   "number": 200,
   "title": "morris1813: Morris's code is Weber's WE028 reversed; five more letters read in part; date and clear text for frame 0039",
-  "updatedAt": "2026-10-30T20:46:29Z",
+  "updatedAt": "2026-10-31T18:38:08Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/200"
- },
- {
-  "author": {
-   "id": "MDQ6VXNlcjY0MTIwNjI4",
-   "is_bot": false,
-   "login": "harrison-bornstein",
-   "name": "harrison-bornstein"
-  },
-  "number": 199,
-  "title": "Catalogue 1235: Maffeo da Treviglio to Bakócz, 1490 (read in part)",
-  "updatedAt": "2026-10-30T23:54:45Z",
-  "url": "https://github.com/dbourdeau/cyphersolver/pull/199"
  },
  {
   "author": {
@@ -44,7 +32,7 @@
   },
   "number": 198,
   "title": "Bell to Mabel Bell, 27 Aug 1900: Unicode code telegram read (catalogue 763)",
-  "updatedAt": "2026-10-30T11:03:42Z",
+  "updatedAt": "2026-10-31T18:38:07Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/198"
  },
  {
@@ -56,7 +44,7 @@
   },
   "number": 174,
   "title": "genes1638 (755): Count of Siruela to Philip IV, Genoa, 19 May 1638, read",
-  "updatedAt": "2026-10-30T23:09:14Z",
+  "updatedAt": "2026-10-31T18:38:09Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/174"
  },
  {
@@ -68,7 +56,7 @@
   },
   "number": 173,
   "title": "damas1787 (new): Damas to the minister of the Navy, Martinique, 2 Nov 1787, cipher part read with the Bouillé 1778 key (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-28T09:57:16Z",
+  "updatedAt": "2026-10-31T18:38:10Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/173"
  },
  {
@@ -80,20 +68,8 @@
   },
   "number": 171,
   "title": "bouille1778 (new): Bouillé to the minister of the Navy, Martinique, Sept-Dec 1778, two cipher letters and a garrison return read (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-28T09:56:20Z",
+  "updatedAt": "2026-10-31T18:38:11Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/171"
- },
- {
-  "author": {
-   "id": "MDQ6VXNlcjM2ODc1MzQ=",
-   "is_bot": false,
-   "login": "bdudout",
-   "name": "Brice Dudout"
-  },
-  "number": 170,
-  "title": "orvilliers1759 (catalogue 543): d'Orvilliers, Cayenne, 10 June 1761, 'entièrement chiffrée et non traduite', read; Guiana code key (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-28T09:51:44Z",
-  "url": "https://github.com/dbourdeau/cyphersolver/pull/170"
  },
  {
   "author": {
@@ -104,7 +80,7 @@
   },
   "number": 169,
   "title": "deboli1788 (catalogue 417): Deboli, St Petersburg, 13 May 1788, read in part; older code of 1788 deciphered at the time (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-28T09:11:43Z",
+  "updatedAt": "2026-10-31T18:38:12Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/169"
  },
  {
@@ -116,7 +92,7 @@
   },
   "number": 168,
   "title": "partyet1721 (catalogue 541): Partyet, consul at Cadiz, to the Conseil de Marine, 7 April 1721, cipher passage read (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-30T23:08:52Z",
+  "updatedAt": "2026-10-31T18:38:13Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/168"
  },
  {
@@ -128,7 +104,7 @@
   },
   "number": 166,
   "title": "raince (catalogue 5): 13 May 1526 letter, pp. 29-31, whole ciphered part read (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-30T23:08:30Z",
+  "updatedAt": "2026-10-31T18:38:14Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/166"
  },
  {
@@ -140,7 +116,7 @@
   },
   "number": 165,
   "title": "auckland1918 (catalogue 757): Winslow / US Navy cables of Feb 1918 read, Vigenère keyed FEBRUARY (contributed by Brice Dudout)",
-  "updatedAt": "2026-10-30T23:08:08Z",
+  "updatedAt": "2026-10-31T18:38:15Z",
   "url": "https://github.com/dbourdeau/cyphersolver/pull/165"
  }
 ]
