@@ -14087,6 +14087,30 @@
     }
    }
   },
+  "asang1662": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/asang1662.html",
+   "key": {
+    "file": "targets/asang1662/key.tsv",
+    "lang": "pl",
+    "how": "recovered here from the ciphertext alone: 23 composite sign groups, annealed on a Polish letter model, tested on the held-out reverse"
+   },
+   "cite": "Brice Dudout (Europe chiffrée), 29 Oct 2026",
+   "fields": {
+    "cleartext_lang": "Polish",
+    "start_year": 1662,
+    "start_month": 7,
+    "start_day": 31
+   },
+   "records": {
+    "R7513": {
+     "decode_status": "N/A",
+     "proposed": "Decrypted",
+     "note": "Unsigned Polish letter dated 31 July 1662, a substitution of 23 composite sign groups; read in full (71 of 71 words) by Brice Dudout, key recovered ciphertext-only. Sender, recipient and place not stated.",
+     "reading": "decode_updates/decryptions/R7513.txt",
+     "sent": false
+    }
+   }
+  },
   "buda1490": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/buda1490.html",
    "key": {

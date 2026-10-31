@@ -1191,6 +1191,12 @@
    "name": "Vestigia (Hungarian documents in the Archivio di Stato di Milano)",
    "kind": "database",
    "note": "Online edition of Milanese documents on Hungary; its document 194 (ASMi Sforzesco 642, minute of 30 Nov 1490) is the clear copy behind the buda1490 key."
+   },
+   {
+   "id": "chirtulov",
+   "name": "Ilia Chirtulov",
+   "kind": "person",
+   "note": "First to find (reported to S. Tomokiyo, 4 Oct 2026, and on Cryptiana on 12 Oct 2026) that the Great Cipher of 1812 reads the cryptogram catalogued as Berthier to Napoleon, 22 Dec 1812, and that its writer is King Joseph (napoleon)."
   }
  ]
 }
