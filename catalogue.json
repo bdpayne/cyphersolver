@@ -15638,13 +15638,13 @@
    "shelfmark": "NARA RG 395, Records of US Army Overseas Operations and Commands, AEF Siberia historical files, microfilm M917 roll 9 (file unit naId 337865023, \"21-33.5 Headquarters, AEF in Siberia\"), frame M917-009-0963",
    "folio_note": "One US Army Field Message form: 32 five-letter groups (160 letters), beginning LJEQE WJJOM RFAHN OVLBO, ending XXKOX XALYX (X padding). Note: 'Given to Japanese Captain 7/8/19 ... to be sent to Vladivostok by wireless'. Filed as an appendix to the Mine Guard war diary between clear field messages Nos. 2 and 4 of 7-8 July and No. 1 of 9 July.",
    "cls": "C",
-   "status": "Enciphered text only; no decipherment on the frame or the neighbouring frames, and no other five-letter cipher group in the cached OCR of rolls 3 and 9. Tested 27 Oct 2026 (vig1919.py): IC 0.041 (flat, so not a transposition of English); no periodic Vigenere or Beaufort key of period 2-15 gives English; a JJ falls inside a digraph (so not Playfair). Likely a 1918-19 US Army field system (cipher disk / Larrabee-type long key) or an enciphered code. OCR read, image not viewed. Not in catalogue.json (known.py: no hits for Vladimirovka, Siberia, M917).",
+   "status": "Enciphered text; probable clear text found (GitHub issue 202, Harumi-Matsuba, 31 Oct 2026, checked on the images here the same day). The receiving headquarters filed its decoded copy as Inclosure VI to Intelligence Summary No. 228, NARA RG 395, M917 roll 6 (naId 337862017), frame M917-006-0919: 'Official copy of telegram received at Vladivostok 9:30 PM ... July 9, 1919 ... VLADIMIRO. Commanding General Amexforce. No. 5. July 9th. Leaving Vladimiro for Souchan this date with supplies, a detachment will return to Vladimiro following day. If practicable will meet Major Cutrer's column near Kazanka. WILLIAMS', with a 'Decoded by' line and handwritten initials. Number, date, sender, addressee and same-evening wireless receipt match frame M917-009-0963. The match rests on those headers: the 32 cipher groups (160 letters) have not been reproduced from the clear text (about 148 letters without padding; the cipher has no G or Z, the clear copy has both), and the headquarters copy may be a paraphrase. Tests reported in the issue, all negative: Beaufort cipher disk with periodic key (period 2-89, known plaintext at every offset, including reversed text, words and clauses), key changing every 2-8 letters, autokey, digraphic, transposition alone, transposition with periodic substitution (period 1-12). Not tested here: an enciphered code (MI-8 or other 1918-19 AEF code), which is the likeliest remaining reading. Earlier tests of 27 Oct 2026 (vig1919.py): IC 0.041, no periodic Vigenere/Beaufort period 2-15, JJ inside a digraph. Not in catalogue.json before the NARA triage (known.py).",
    "why": "A field cipher of the US intervention in Siberia, sent through Japanese wireless during the July 1919 partisan fighting round the Suchan mines; it shows which system the AEF Siberia used in the field.",
    "importance": 2,
-   "solvability": 3,
+   "solvability": 4,
    "difficulty": 3,
    "score_note": "Scored from the NARA bulk_all catalogue scan during the Oct 2026 NARA triage (research/nara_triage_h/); OCR of the frame read, image not viewed",
-   "verify": "View frame M917-009-0963 to confirm the groups; read the Mine Guard war diary for 8-9 July 1919 (frames 0966 ff.) and the HQ message files for the received copy; try the 1918-19 US Army field systems (Army Cipher Disk, Larrabee, War Department Telegraph Code 1915 + cipher).",
+   "verify": "Find the AEF Siberia cipher system: the Signal Corps field cipher or code books of 1918-19 (Army cipher disk instructions, MI-8 codes) and the war diary of Headquarters AEF Siberia. Look for a second cipher/clear pair: telegram No. 90 of 10 July to Major Cutrer (M917 roll 6, frame 0915) was 'enciphered', and its received cipher form is not in the digitised files searched. Test the clear text as a crib against a code (32 groups against about 28 words plus number and date).",
    "links": [
     {
      "label": "M917 roll 9 file unit",
@@ -15653,11 +15653,23 @@
     {
      "label": "frame M917-009-0963",
      "href": "https://catalog.archives.gov/medialz/dc-metro/rg-395/649566/M917/M917-009/M917-009-0963.tif"
+    },
+    {
+     "label": "clear text: M917 roll 6 file unit",
+     "href": "https://catalog.archives.gov/id/337862017"
+    },
+    {
+     "label": "clear text: frame M917-006-0919",
+     "href": "https://catalog.archives.gov/medialz/dc-metro/rg-395/649566/M917/M917-006/M917-006-0919.tif"
+    },
+    {
+     "label": "GitHub issue 202",
+     "href": "https://github.com/dbourdeau/cyphersolver/issues/202"
     }
    ],
    "seen": "catalogue",
    "source": "NARA bulk_all triage (slice H)",
-   "prior_art": "open (checked 27 Oct 2026: catalogue.json/known.py, nara_triage_a-g READMEs; no web search)",
+   "prior_art": "open (checked 27 Oct 2026: catalogue.json/known.py, nara_triage_a-g READMEs; no web search); clear text found by Harumi-Matsuba (issue 202, 31 Oct 2026)",
    "ark": "",
    "scored": "sweep"
   },
@@ -32657,60 +32669,6 @@
    }
   },
   {
-   "id": 1235,
-   "counted": true,
-   "year": 1490,
-   "date": "30 Nov 1490",
-   "title": "Maffeo da Treviglio (Milanese envoy at Buda) → Thomas Bakócz, bishop of Győr: four-page letter in cipher",
-   "correspondents": "Maffeo da Treviglio → Tamás Bakócz, bishop of Győr",
-   "place": "Buda",
-   "language": "Latin (record) / probably Italian",
-   "region": "Central Europe",
-   "period": "15th century",
-   "shelfmark": "Magyar Nemzeti Levéltár (MNL OL), Diplomatikai Levéltár, DL 46150 (Q 10, Magyar nemzeti múzeumi törzsanyag, ex Véghely)",
-   "folio_note": "4 paper pages, original, pressed seal; the abstract says \"Titkos írással írt\"",
-   "cls": "A",
-   "status": "Hungaricana charter record (regest source: OL regeszta, Bakács). The repo already holds the Maffeo cipher: targets buda1489-maffeo (key from Somogyi, DECODE R5411 and ASMi Sforzesco 1597 nos. 107/111). This Hungarian-side letter is not in the repo (known.py: no hits for 46150). Checked 28 Oct 2026: Verified: DL 46150 is dated 30 Nov 1490, Latin, original with seal, 'Mapheus Trituliensis' to Tamás (Bakócz), bishop of Győr, 4 paper pages in secret writing; regest says probably Maffeo da Treviglio. It is a Hungarian-side original, distinct from the Milan copies in targets/buda1489 (22 Nov 1489 V2831 etc.). Hungaricana offers an image viewer (ECW tiles, /charters/view/228061/) but it was not opened here.",
-   "why": "A letter from Sforza's agent to a Hungarian prelate in the same cipher as the Buda reports of 1489-90 already read, so it is a fresh ciphertext for a known key, and the 15th-century date matters for the oldest-cipher list.",
-   "importance": 4,
-   "solvability": 4,
-   "difficulty": 3,
-   "score_note": "Scored from the Hungaricana record during the Oct 2026 Swiss-Austrian-Bohemian sweep (research/swiss_austrian/); not viewed",
-   "verify": "Open the Hungaricana viewer, transcribe signs, test key R5411 (ASMi 1597 no. 111) and Somogyi's key; a 1490 date is within the buda1489 corpus.",
-   "links": [
-    {
-     "label": "Hungaricana, DL 46150",
-     "href": "https://archives.hungaricana.hu/en/charters/228061/"
-    }
-   ],
-   "prior_art": "open (checked 28 Oct 2026: Hungaricana charter record read; MNL encryption page describes Maffeo's ciphers from the Milan side; repo target buda1489 does not mention DL 46150; web search found no publication of this letter)",
-   "source": "Swiss-Austrian-Bohemian portals sweep",
-   "decode_ids": [],
-   "seen": "image",
-   "ark": "",
-   "scored": "vetted",
-   "vetting": {
-    "date": "2026-10-29",
-    "by": "claude vetting batch 29",
-    "seen": {
-     "kind": "scan",
-     "where": "https://archives.hungaricana.hu/en/charters/view/228061/ (image 2)",
-     "extent": "DL 46150: 4 paper pages of dense sign cipher, about 25 lines on p. 1 (image 2 of 5 in the viewer), docket '1490 XI/30', seal; images 1 colour target, 2 p. 1, 3 pp. 2-3 spread, 4 p. 4, 5 seal.",
-     "cipher": "Hungaricana charters viewer (archives.hungaricana.hu/en/charters/view/228061/) rendered in Claude in Chrome 29 Oct 2026; p. 1 viewed: closely written cipher signs (letter-like glyphs, circles, crossed forms), a short clear marginal 'Rmo' and the archive's own label 'Titkos jegyekkel irva' (written in secret signs); no clear text, interlinear or key on the leaf; no transcription made."
-    },
-    "prior_art": {
-     "decode": "DECODE has the key R5411 for the Milan side but no record for DL 46150 (targets/buda1490 NOTES; known.py hit that target).",
-     "tomokiyo": "Not checked page by page for DL 46150; no Tomokiyo page on Maffeo's Hungarian-side letters found in the earlier verification (research/verify_2026-10/e_swiss_austrian.json).",
-     "lasry": "No Lasry paper or GL.htm entry on these Vienna Turkish despatches found (web searches 29 Oct 2026 on Habsburg Constantinople cipher Lasry/Lang).",
-     "edition": "Hungaricana charter record gives only a Latin abstract; no printed decipherment found (targets/buda1490 verification of 28 Oct 2026 plus web search 29 Oct).",
-     "literature": "Somogyi's work on the Maffeo cipher is the basis of targets/buda1489; it does not mention DL 46150 per the repo notes."
-    },
-    "key_check": "Candidate keys held: Somogyi's key and DECODE R5411 (targets/buda1489/key_R5411.md); not applied because no transcription was made. Note: targets/buda1490 recorded the viewer as blocked in the built-in browser; it renders in Claude in Chrome, so the images can be read there.",
-    "duplicates": "known.py '46150' hit targets/buda1490 (this same item, status attempted open) and access_uncertain.md; it is the work folder of lead 1235, not a duplicate; Milan copies of the cipher in buda1489 are other letters.",
-    "verdict": "open"
-   }
-  },
-  {
    "id": 1245,
    "counted": true,
    "year": 1807,
@@ -35754,15 +35712,16 @@
    "language": "Spanish",
    "region": "Americas",
    "period": "1901-1950",
-   "shelfmark": "CEHM-Carso, Fondo DLXXIII (Manuscritos del General Guillermo Rubio Navarrete), DLXXIII.1.29.11-30, 1.29.12-30, 1.30.5-49, 1.30.15-49 (clave núm. 10, Lampazos 10 Jul 1913), 1.30.16-49, 1.30.17-49 (transcribes in cipher an order of President Huerta, 19 Jul 1913), 1.30.27-49, 1.31.29-30, 1.32.3-41, 1.32.5-41, 1.32.6-41, 1.32.21-41, 2.41.1-41, 2.41.9-41, 2.41.13-41, 2.41.17-41, 2.41.18-41, 2.41.19-41, 2.41.22-41, 2.41.23-41; 2.41.39-41 to 41-41 (Jan 1918)",
+   "shelfmark": "CEHM-Carso, Fondo DLXXIII (Manuscritos del General Guillermo Rubio Navarrete), DLXXIII.1.29.11-30, 1.29.12-30, 1.30.5-49, 1.30.15-49 (clave núm. 10, Lampazos 10 Jul 1913), 1.30.17-49 (transcribes in cipher an order of President Huerta, 19 Jul 1913), 1.30.27-49, 1.31.29-30, 1.32.3-41, 1.32.5-41, 1.32.6-41, 1.32.21-41, 2.41.1-41, 2.41.17-41, 2.41.18-41, 2.41.19-41, 2.41.22-41, 2.41.23-41; 2.41.39-41 to 41-41 (Jan 1918)",
    "folio_note": "About 20 telegrams and letters recorded only as \"EN CLAVE\" (some incomplete); the same legajos hold the keys: DLXXIII.1.28.8-23 (alphabet and syllables), 1.28.14-23 (\"Clave núm. 109, Secretaría de Guerra y Marina\", military vocabulary), 1.29.15-30 (alphabets, syllables and numbers, Zacatecas)",
    "cls": "A",
-   "status": "CEHM: \"EN CLAVE\", no translation; a few siblings carry summaries (1.29.9-30, 2.41.18-41: railway repaired to Gutiérrez north of Fresnillo). Key sheets of the Secretaría de Guerra filed with them.",
+   "status": "CEHM: \"EN CLAVE\", no translation; a few siblings carry summaries (1.29.9-30, 2.41.18-41: railway repaired to Gutiérrez north of Fresnillo). Key sheets of the Secretaría de Guerra filed with them. Narrowed 30 Oct 2026: three telegrams in Clave núm. 109 (1.30.16-49, 2.41.9-41, 2.41.13-41) were read by Brice Dudout (write-up rubio1913); the other pieces use other tables and are unread.",
    "why": "Federal army operations against Pablo González and Carranza in the Northeast (Lampazos, Candela, Cañón de Sabinas, Nov 1913) and the defence of Zacatecas before June 1914; Huerta-side cipher is rarely seen.",
    "importance": 3,
    "solvability": 5,
    "difficulty": 1,
    "score_note": "Scored from the CEHM online catalogue record during the Oct 2026 Mexico sweep (research/latam_mexico/); not viewed",
+   "outcome": "attempted, open",
    "verify": "View the key sheets (1.28.8-23, 1.28.14-23, 1.29.15-30) and one telegram (1.30.17-49) at CEHM.",
    "links": [
     {
