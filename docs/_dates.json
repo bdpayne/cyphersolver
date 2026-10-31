@@ -177,6 +177,7 @@
   "ferdinand, king of hungary (ferdinand iii), and the cardinal-infante ferdinand, ": "2026-10-09",
   "ferenc rákóczi ii to an envoy, lwów, 27 june 1711": "2026-10-15",
   "feuquières to catinat, 1691": "2026-09-15",
+  "feynman ciphers nos. 2 and 3, 1953": "2026-10-31",
   "filippo maria visconti to francesco sforza, cusago, 23 jan 1447": "2026-10-29",
   "filippo maria visconti to francesco sforza, nov 1446 – mar 1447": "2026-10-29",
   "filippo sega, paris, 26 nov 1590 and 16 jan 1591": "2026-10-30",
@@ -474,6 +475,7 @@
   "the marquis del vasto to charles v, rome, december 1527": "2026-09-18",
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
+  "the milroy telegrams, 1861–62": "2026-10-31",
   "the paris informant to the duc de nevers, 4 june 1588 (bnf fr. 3976 f. 131)": "2026-10-02",
   "the police radiogram of 16 june 1942 (a115), mogilev": "2026-10-15",
   "the pressburg report and a servant’s letter to the duke of bavaria, c. 1533–34": "2026-10-15",
@@ -1125,7 +1127,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "3b84151d2807",
+   "hash": "43b9aa12836f",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-10-31"
   },
@@ -1441,6 +1443,12 @@
    "posted": "2026-10-14T13:28:47Z",
    "updated": "2026-10-26"
   },
+  "feynman": {
+   "first": "2026-10-31",
+   "hash": "06a780177785",
+   "posted": "2026-10-31T19:39:16Z",
+   "updated": "2026-10-31"
+  },
   "fiesque1567": {
    "first": "2026-10-21",
    "hash": "9d7a1154517e",
@@ -1533,7 +1541,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "0c9bbb06f032",
+   "hash": "1d6762e7adad",
    "posted": "2026-09-24T07:48:35Z",
    "updated": "2026-10-31"
   },
@@ -1767,7 +1775,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5647792486ab",
+   "hash": "38d56be0ab8f",
    "posted": "2026-09-14T23:01:27Z",
    "updated": "2026-10-31"
   },
@@ -2172,6 +2180,12 @@
    "hash": "07b81e5b90c0",
    "posted": "2026-09-19T06:13:43Z",
    "updated": "2026-10-26"
+  },
+  "milroy": {
+   "first": "2026-10-31",
+   "hash": "88d2eb1472d7",
+   "posted": "2026-10-31T19:39:16Z",
+   "updated": "2026-10-31"
   },
   "mniszech1714": {
    "first": "2026-10-14",
@@ -3663,7 +3677,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "49cbc7b162cf",
+   "hash": "f4d0a497c287",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-10-31"
   },

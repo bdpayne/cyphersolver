@@ -1961,6 +1961,11 @@ PAGES = [
          blurb='A torn letter in symbols on mourning paper, seized from Rose O&rsquo;Neal Greenhow&rsquo;s house on 23 August 1861 (NARA naId 1634036). Side 1 deciphers with the key found on her body when she drowned off Fort Fisher in 1864: Washington expects an attack hourly and is hunting whoever gave the alarm. About 60% of its words read as sense between paper losses; side 2 and a scrap of figures stay open. No earlier decipherment was found.',
          quote='&ldquo;Attack is hourly expected. They beleive this: the atta[ck] will [b]e simultaneou[s]&rdquo;',
          rights='National Archives (NARA), RG 59, Seized Correspondence of Rose O&rsquo;Neal Greenhow, and RG 45, M1091, via the National Archives Catalog'),
+    dict(slug='milroy', label='Milroy telegrams 1861&ndash;62', year='1861&ndash;62', y=1862.9, place='Washington &rarr; Milroy', st='solved', stt='known key applied',
+         title='The Milroy telegrams, 1861&ndash;62',
+         blurb='Two Union telegrams to General Robert Milroy in Stager Cipher No. 7, a word route transposition in six fixed columns whose indicator word gives the number of lines. Richard Bean solved them with Claude Opus 5 in 2026; two routes of Milroy&rsquo;s own copy were checked here against his grid and nothing was added.',
+         quote='&ldquo;If your information as to Imboden is confirmed, let me know by what route you shall try to reach him&hellip;&rdquo;',
+         rights='Solution: Richard Bean, via S. Tomokiyo, Cryptiana; Milroy&rsquo;s copy as transcribed in a Jasper County Library lesson plan'),
     dict(slug='johnston1863', label='Johnston to Seddon 1863', year='1863', y=1863.46, place='Jackson &rarr; Richmond', st='solved', stt='existing decipherment',
          title='Johnston to Seddon, Jackson, 16 June 1863',
          blurb='General Joseph E. Johnston&rsquo;s telegram to the Confederate Secretary of War during the siege of Vicksburg has five words in Vigen&egrave;re. The War Department&rsquo;s &ldquo;Translation of Cypher&rdquo; is filed with it, and the text was printed in 1864 and in the Official Records. The five words fit the Confederate key MANCHESTERBLUFF when the key advances by the length of each plaintext word, 26 of 33 positions, the rest being the clerk&rsquo;s slips.',
@@ -2330,6 +2335,11 @@ PAGES = [
          blurb='Message A115 from the Higher SS and Police Leader Russia Centre at Mogilev, in the double-box cipher under the daily key of 16 June 1942, published by Frode Weierud in 2020. Bletchley decrypted it at the time and Hanyok reproduced the decrypt: sixteen men of Police Battalion 51 killed, and the village of Borki razed and its inhabitants &ldquo;liquidated&rdquo;. The decrypt could not be aligned letter by letter with the 223 cipher letters, so the key was not recovered here.',
          quote='&ldquo;Das Dorf BORKI &hellip; wurde dem Erdboden gleichgemacht. Die Einwohnerschaft liquidiert.&rdquo;',
          rights='Images: NARA, RG 457 (HCC), via Weierud 2020 and Hanyok 2005'),
+    dict(slug='feynman', label='Feynman ciphers 2 and 3', year='1953', y=1953, place='United States', st='solved', stt='known key applied',
+         title='Feynman ciphers nos. 2 and 3, 1953',
+         blurb='Two English ciphers attributed to Feynman, a stanza of Housman and the opening of his paper on liquid helium, enciphered with two substitution alphabets alternating word by word, even-length words reversed and word boundaries dropped. David Vierra solved them in May 2023; re-enciphering his plaintexts here matches 228 of 231 letters of no. 3.',
+         quote='&ldquo;The behavior of liquid helium, especially below the lambda transition, is very curious.&rdquo;',
+         rights='Solution: David Vierra, 2023; plaintexts: A. E. Housman and R. P. Feynman (Phys. Rev. 91, 1291)'),
     dict(slug='copenhagen', label='Copenhagen', year='c.1950s', y=1955, place='Copenhagen', st='stuck', stt='not a simple substitution',
          title='The Copenhagen cryptogram',
          blurb='Three lines of strokes, dots and digits found behind an 1835 portrait of a Danish general, 107 characters, with no known solution. Two transcriptions were attacked as a simple substitution in ten languages under six conventions; the same solver recovers matched controls almost completely, and the cryptogram never comes close. It is not a simple substitution of any language tested.',
@@ -4024,6 +4034,8 @@ IMAGES['swieten1759'] = ('swieten1759_r956.jpg', 'R956, f. 344, 4 February 1759:
 IMAGES['dedem1799'] = ('dedem1799_p2.jpg', 'R1895, image 2 (turned upright): the heading XVIII Duplicaat, Burger Agent, and the marked code groups', 'Nationaal Archief, The Hague, 2.01.08 inv. 346, via DECODE R1895')
 IMAGES['waddall1656'] = ('waddall1656_tsp5_p337.jpg','The cipher words in Waddall&rsquo;s clear frame', 'Thomas Birch, A Collection of the State Papers of John Thurloe (1742), vol. 5 p. 337, via the Internet Archive')
 IMAGES['johnston1863'] = ('johnston1863_lead.jpg', 'The cipher lines of the telegram: UNIEK &ndash; CXNKVNED, JJTRRK, ISLX &ndash; KFYHJEER', 'National Archives, RG 109, naId 3854726, image 1, via the National Archives Catalog')
+IMAGES['milroy'] = None
+IMAGES['feynman'] = None
 IMAGES['greenhow1861'] = ('greenhow1861_lead.jpg', 'Side 1, lines 4&ndash;10: &hellip;ck is hourly expec[r]ted. they beleive this: the atta[ck] will [b]e simultaneou[s] &hellip;', 'National Archives, RG 59, Seized Correspondence of Rose O&rsquo;Neal Greenhow, naId 1634036, image 1, via the National Archives Catalog')
 IMAGES['jordan1861'] = ('jordan1861_lead.jpg', 'The left block of the burnt fragment, inverted: HAR with &ldquo;h a r&rdquo; under it, SCOTT, HANS FIELD FORTIFICATION', 'National Archives, RG 59, Seized Correspondence of Rose O&rsquo;Neal Greenhow, naId 6925618, image 1, via the National Archives Catalog; inverted and contrast-stretched here')
 IMAGES['puebla1506'] = None

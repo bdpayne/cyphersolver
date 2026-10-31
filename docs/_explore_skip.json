@@ -1,5 +1,7 @@
 {
  "portrait": {
+  "milroy": "The senders (Cox, Bascom) are minor officers named only in the telegram text and no trustworthy public-domain portrait was sought for a check-only page (decided 31 Oct 2026).",
+  "feynman": "Not a letter between people: two puzzle ciphers attributed to Feynman with no addressee, so no sender or recipient to portray (decided 31 Oct 2026).",
   "asang1662": "Anonymous letter: neither sender nor recipient is named (the recipient is addressed only as MM Pan) and the place of writing is not stated, so there is no person to portray.",
   "tokyo1932": "No single correspondent: about 850 intercepted messages between US Navy and State Department posts in China and Japan (Navy commanders, Consul General Cunningham, Minister Johnson, Ambassador Grew and others) and Washington; the copies are Japanese Navy intelligence files, so there is no principal sender or recipient to portray (decided 30 Oct 2026).",
   "moscowmeteo1940": "Not a letter between named people: the sender is the Japanese Army Meteorological Department (an office) and the recipients are four successive War Ministers and Vice-Ministers of War; the cipher is Soviet weather broadcasts with no named correspondents (decided 30 Oct 2026).",
@@ -117,6 +119,7 @@
   "joao1642": "Recipient Vasco Luís da Gama, 1st marquês de Nisa: Wikidata Q94820042 has no image, pt.wikipedia's lead image is his coat of arms (CC BY-SA), no Commons category or portrait file (searched 27 Oct 2026); sender João IV shown."
  },
  "reveal": {
+  "milroy": "The decipherment is a word route transposition solved by another author; the project holds no grid-level decode of Milroy's copy, only two spot-checked runs (31 Oct 2026).",
   "tokyo1932": "No cipher groups survive in the file (only the Japanese recovered clear text), so no passage decodes sign by sign.",
   "smallwood1777": "Not a cipher: the five marks are blanks over erased words, so no passage decodes sign by sign.",
   "reede1796": "Not solved: no passage decodes sign by sign (book code with the book unknown; the later list is not rebuilt).",
@@ -235,6 +238,8 @@
   "dorabella": "Not solved: no passage decodes sign by sign, so there is no reading to replay."
  },
  "snip": {
+  "milroy": "No image of the telegram was used: the text is a transcription of Milroy's copy in a library lesson plan and no scan was obtained (31 Oct 2026).",
+  "feynman": "No image exists in the project: the ciphertexts are strings copied into verify.py from a published solution (31 Oct 2026).",
   "tokyo1932": "The only images are the JACAR scans (Ref. C05022467800 to C05022469300, National Institute for Defense Studies), which JACAR marks all rights reserved; no redistribution licence, so no crop is published. They also hold no cipher groups: only typed English clear text recovered by the Japanese Navy (checked 30 Oct 2026).",
   "moscowmeteo1940": "The only images are the JACAR scans of the reports (Ref. C01004558500 ... C01004818600, National Institute for Defense Studies), marked all rights reserved by JACAR; no redistribution licence, so no crop is published (checked 30 Oct 2026). The tables and the worked example are transcribed in targets/moscowmeteo1940/.",
   "puebla1506": "Archivo General de Simancas, Patronato Real leg. 54 doc. 78 is online on PARES, but PARES answered HTTP 429 to every request on 27 Oct 2026. Add the crop of ll. 18-26 when it answers (recipe in targets/puebla1506/NOTES.md).",
