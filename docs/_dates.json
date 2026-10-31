@@ -32,6 +32,7 @@
   "aerssen to oldenbarnevelt, 25 may 1601": "2026-10-07",
   "afonso vi → the count of vila flor, 13–26 may 1663": "2026-10-27",
   "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
+  "alexander graham bell → mabel hubbard bell, 27 august 1900": "2026-10-31",
   "alfonso cistarelli to cardinal ippolito d’este, eger, 25 july 1520": "2026-10-15",
   "alfonso de exea to francesc climent, perpignan, 23 august 1408": "2026-10-15",
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
@@ -738,6 +739,12 @@
    "posted": "2026-10-15T06:53:57Z",
    "updated": "2026-10-15"
   },
+  "bell1900": {
+   "first": "2026-10-31",
+   "hash": "d9f309f6bb6c",
+   "posted": "2026-10-31T19:16:36Z",
+   "updated": "2026-10-31"
+  },
   "benedict1399": {
    "first": "2026-09-23",
    "hash": "0feedecc430e",
@@ -968,7 +975,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "bdee7e458c77",
+   "hash": "bf50f780c2cf",
    "posted": "2026-09-17T06:13:29Z",
    "updated": "2026-10-31"
   },
@@ -1118,7 +1125,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "9e756b2e0eb8",
+   "hash": "3b84151d2807",
    "posted": "2026-10-13T18:37:37Z",
    "updated": "2026-10-31"
   },
@@ -1526,9 +1533,9 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "1914600989ae",
+   "hash": "0c9bbb06f032",
    "posted": "2026-09-24T07:48:35Z",
-   "updated": "2026-10-30"
+   "updated": "2026-10-31"
   },
   "goldbar": {
    "first": "2026-09-15",
@@ -1760,9 +1767,9 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "24f7f363fa07",
+   "hash": "5647792486ab",
    "posted": "2026-09-14T23:01:27Z",
-   "updated": "2026-10-30"
+   "updated": "2026-10-31"
   },
   "indus": {
    "first": "2026-09-24",
@@ -3656,7 +3663,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f31d28e04f02",
+   "hash": "49cbc7b162cf",
    "posted": "2026-09-18T16:29:53Z",
    "updated": "2026-10-31"
   },

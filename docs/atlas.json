@@ -7190,6 +7190,17 @@
    "src": "profile"
   },
   {
+   "slug": "bell1900",
+   "doc": "telegram",
+   "year": 1900.65,
+   "date": "27 Aug 1900",
+   "from": "London",
+   "to": "Paris",
+   "st": "solved",
+   "label": "Bell to Mabel Bell 1900",
+   "src": "profile"
+  },
+  {
    "slug": "carlos1903",
    "doc": "m0056",
    "year": 1903.17,
