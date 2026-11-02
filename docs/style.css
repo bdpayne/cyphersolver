@@ -1603,7 +1603,7 @@ body.pg-catalogue .pill.arch{color:var(--amber);border-color:color-mix(in srgb,v
 body.pg-catalogue .archnote{margin:1rem 0}
 
 /* ---------------------------------------------------------------- hero video (rendered by tools/hero_video/hero_video.py) */
-.herovid{max-width:720px;margin:.6rem auto 1.6rem}
+.herovid{max-width:720px;margin:.6rem 0 1.6rem}
 .hv-frame{position:relative}
 .herovid video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#05070b;border:1px solid var(--rule);border-radius:var(--radius);box-shadow:var(--shadow)}
 .hv-ctl{position:absolute;top:.7rem;right:.7rem;display:flex;gap:.4rem}
